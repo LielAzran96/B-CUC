@@ -408,7 +408,7 @@ class ESDE():
             Phi, _ = self.Phi(times, lambdas, V, self.n)
             Phi = Phi[0].reshape(-1, self.n, self.n)
             Hom = np.matmul(Phi, init_cond)
-            Hom_var = np.matmul(Phi, np.matmul(init_var, Phi.swapaxes(-2, -1)))
+            Hom_var = Phi @ init_var @ Phi.swapaxes(-2, -1)
 
             eye = np.eye(self.n)[None, :, :]
             diag_sign = np.sign(np.diagonal(Hom_var, axis1=-2, axis2=-1))
