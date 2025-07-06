@@ -1,20 +1,20 @@
 import numpy as np
 from models.linear_model import LinearModel_Estimator
-from conformalPcontrol import ConformalPcontrol
+from calibrator_module.conformalPcontrol import ConformalPcontrol
 import copy
 
 class BCUC_Calibrator:
-    def __init__(self, initial_model: LinearModel_Estimator, beta: float = 0.1, alpha: float = 0.05):
-        self.model = copy.deeptcopy(initial_model)
+    def __init__(self, initial_model: LinearModel_Estimator, beta: float = 0.1, alpha: float = 0.15):
+        self.model = copy.deepcopy(initial_model)
         self.beta = beta
         self.alpha = alpha
-        self.q_0 = 1.0
-        self.Q = self.initial_model.getQ()
-        self.n = self.initial_model.get_dimention() # dimention of the model
-        self.conformal_p_control = ConformalPcontrol(alpha=self.alpha, beta=self.beta, q_0=self.q_0)
+        self.q = 1.0 # initial quantile
+        self.Q = self.model.get_param('Q') # initial Q matrix
+        self.n = self.model.get_dimention() # dimention of the model
+        self.conformal_p_control = ConformalPcontrol(alpha=self.alpha, beta=self.beta, q_0=self.q)
         
      
-    def calibrate_model(self, observations: np.ndarray, actions: np.ndarray = None):
+    def calibrate_model(self, observations: np.ndarray, actions: np.ndarray = None, reset_obs = True):
         """
         Calibrate the model using the provided observations.
         
@@ -24,22 +24,56 @@ class BCUC_Calibrator:
         Returns:
         - calibrated_model: LinearModel
         """
-        n_samples, n_observations, n_features = observations.shape
+        # n_samples, n_observations = observations.shape
 
-        # if self.n == 1:
-        #     n_samples, n_observations, n_features = observations.shape
-        #     # n_features = 1
-        # else:
-        #     n_samples, n_observations ,n_features = observations.shape
+        if self.n == 1:
+            n_samples, n_observations = observations.shape
+            n_features = 1
+        else:
+            n_samples, n_observations ,n_features = observations.shape
             
         if n_features != self.Q.shape[0]:
             raise ValueError("Number of features in observations must match the model's Q matrix dimensions.")
         
         if actions is None:
             actions = np.zeros((n_samples, n_observations, n_features))
-        
+        if reset_obs:
+            # Reset the model to its initial state
+            self.model.reset()
+        counter = 0   
         for obs, action in zip(observations, actions):
-            meu, cov = self.model.predict(obs, action)
-            if obs is not None:
-                # CONTINUE FROM HERE
-                break
+            meu, cov = self.model.predict(action)
+            if not np.isnan(obs).any():
+                counter += 1
+                if self.model.state_dim == 1:
+                    sigma = np.sqrt(cov)
+                else:
+                    sigma = cov
+                
+                self.conformal_p_control.compute_score(obs, meu, sigma)
+                self.conformal_p_control.compute_interval(meu, sigma)
+                self.conformal_p_control.compute_error(obs)
+                self.conformal_p_control.compute_eta()  
+                if counter % 20 == 0:
+                    self.q = self.conformal_p_control.compute_quantile()
+
+                # Update the model's Q matrix based on the calibrated quantile
+                    self.model.update_params(Q = np.pow(self.q, 2) * self.Q)
+                    self.Q = self.model.get_param('Q')
+                
+                #   # if counter % 5 == 0:
+                # self.q = self.conformal_p_control.compute_quantile()
+
+                # # # Update the model's Q matrix based on the calibrated quantile
+                # self.model.update_params(Q = np.pow(self.q, 2) * self.Q)
+                # self.Q = self.model.get_param('Q')
+                
+                print(f"Updated Q : {self.Q}, q: {self.q}")
+                    
+                self.model.update(obs)
+                
+        return self.model
+                
+    def get_calibrated_model(self) -> LinearModel_Estimator:
+        return self.model
+            

@@ -80,7 +80,7 @@ class LinearModel():
         """Generate noisy observation from current state"""
         v_t = np.random.multivariate_normal(np.zeros(self.H.shape[0]), self.R)
         o_t = self.H @ self.state.flatten() + v_t
-        return o_t.reshape(-1, 1)
+        return o_t.flatten()
 
 
     def seed(self, seed=None):
@@ -90,11 +90,12 @@ class LinearModel():
 
     def reset(self):
         """Reset the environment to initial state"""
-        self.state = np.random.multivariate_normal(self.initial_mean, self.initial_cov)
+        self.state = np.random.multivariate_normal(self.initial_mean, self.initial_cov).flatten()
         self.time = 0.0
-        self.states = [self.state.copy()]
+        self.states=[]
+        self.states.append(self.state)
         self.counter = 0
         
         # Get initial observation
-        initial_obs = self._get_noisy_observation()
-        return initial_obs
+        # initial_obs = self._get_noisy_observation()
+        return self.state

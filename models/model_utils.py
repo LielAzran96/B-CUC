@@ -2,6 +2,8 @@
 import numpy as np
 import torch
 import pandas as pd
+import json
+import os
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -24,7 +26,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 params = {
     'A': np.array([[0.95]], dtype=np.float64),  # Slight decay over time (drug clearance)
     'B': np.array([[0.1]], dtype=np.float64),   # Dosage affects concentration directly
-    'Q': np.array([[0.01]], dtype=np.float64),  # Small process noise
+    'Q': np.array([[1.5]], dtype=np.float64),  
     'R': np.array([[0.05]], dtype=np.float64),  # Measurement noise in blood test
     'H': np.array([[1.0]]),                     # Direct observation of concentration
     'Q_cost': np.array([[5.0]]),                # Penalize deviation from target
@@ -76,65 +78,105 @@ def generate_observation_sequence(model, actions_sequence):
     return result
 
 
-def save_observations(data, filename, format='npz'):
+def save_observations(data, filename, format='npz', dir_name=None):
     """
-    Save observation data in various formats
-    
-    Args:
-        data: Dictionary containing observations and metadata
-        filename: Name of file to save (without extension)
-        format: Format to save in ('npz', 'csv', 'json', 'mat')
-    """
-    import os
-    
+        Save observation data in various formats
+        
+        Args:
+            data: Dictionary containing observations and metadata
+            filename: Name of file to save (without extension)
+            format: Format to save in ('npz')
+            dir_name: Directory to save the file in (optional)
+        """    
+        
     if format == 'npz':
         # NumPy compressed format - best for numerical data
-        np.savez_compressed(f"{filename}.npz", **data)
-        print(f"Data saved as {filename}.npz")
+        if dir_name:
+            os.makedirs(dir_name, exist_ok=True)
+            filepath = f"{dir_name}/{filename}.npz"
+            params_filepath = f"{dir_name}/{filename}_params.json"
+        else:
+            filepath = f"{filename}.npz"
+            params_filepath = f"{filename}_params.json"
         
-    elif format == 'csv':
-        # CSV format - good for simple tabular data
+        np.savez_compressed(filepath, **data)
+        print(f"Data saved as {filepath}")
         
-        # Flatten observations for CSV
-        obs_flat = data['observations'].reshape(len(data['observations']), -1)
-        df_data = {
-            'timestamp': data['timestamps'],
-            'action': data['actions'].flatten() if data['actions'].ndim > 1 else data['actions']
+        # Save model parameters in JSON format
+        model_params = {
+            'A': params['A'].tolist(),
+            'B': params['B'].tolist(),
+            'Q': params['Q'].tolist(),
+            'R': params['R'].tolist(),
+            'H': params['H'].tolist()
         }
         
-        # Add observation columns
-        for i in range(obs_flat.shape[1]):
-            df_data[f'obs_{i}'] = obs_flat[:, i]
+        with open(params_filepath, 'w') as f:
+            json.dump(model_params, f, indent=2)
+        print(f"Model parameters saved as {params_filepath}")
             
-        df = pd.DataFrame(df_data)
-        df.to_csv(f"{filename}.csv", index=False)
-        print(f"Data saved as {filename}.csv")
+    else:
+        raise ValueError(f"Unsupported format: {format}")
+
+
+def load_observations(filename, format='npz', dir_name=None):
+    """
+    Load observation data from file
+    
+    Args:
+        filename: Name of file to load (without extension)
+        format: Format to load from ('npz')
         
-    elif format == 'json':
-        # JSON format - human readable but less efficient for large arrays
-        import json
-        
-        # Convert numpy arrays to lists for JSON serialization
-        json_data = {}
-        for key, value in data.items():
-            if isinstance(value, np.ndarray):
-                json_data[key] = value.tolist()
-            else:
-                json_data[key] = value
-                
-        with open(f"{filename}.json", 'w') as f:
-            json.dump(json_data, f, indent=2)
-        print(f"Data saved as {filename}.json")
-        
-    elif format == 'mat':
-        # MATLAB format - good for MATLAB interoperability
-        from scipy.io import savemat
-        savemat(f"{filename}.mat", data)
-        print(f"Data saved as {filename}.mat")
+    Returns:
+        dict: Dictionary containing observations and metadata
+    """
+    if dir_name:
+        os.makedirs(dir_name, exist_ok=True)
+        filepath = f"{dir_name}/{filename}.npz"
+        params_filepath = f"{dir_name}/{filename}_params.json"
+    else:
+        filepath = f"{filename}.npz"
+        params_filepath = f"{filename}_params.json"
+    if format == 'npz':
+        # Load NumPy compressed format
+        loaded = np.load(filepath)
+        data = {key: loaded[key] for key in loaded.files}
+        print(f"Data loaded from {filepath}")
+        return data
         
     else:
         raise ValueError(f"Unsupported format: {format}")
 
+
+
+# def load_and_analyze_example():
+#     """Example of how to load and analyze saved data"""
+    
+#     print("\n" + "="*50)
+#     print("Loading and analyzing saved data...")
+    
+#     # Load NPZ file
+#     filename = "observations_sinusoidal.npz"
+#     try:
+#         loaded_data = np.load(filename)
+        
+#         print(f"\nLoaded data from {filename}")
+#         print("Available keys:", list(loaded_data.keys()))
+        
+#         observations = loaded_data['observations']
+#         timestamps = loaded_data['timestamps']
+#         actions = loaded_data['actions']
+#         states = loaded_data['states'] if 'states' in loaded_data else None
+        
+#         print(f"Observations shape: {observations.shape}")
+#         print(f"Time range: {timestamps[0]:.2f} to {timestamps[-1]:.2f}")
+#         print(f"Actions range: {actions.min():.3f} to {actions.max():.3f}")
+        
+#         if states is not None:
+#             print(f"States shape: {states.shape}")
+
+    # except FileNotFoundError:
+    #         print(f"File {filename} not found. Run the main generation first.")
 
 def mask_observations(observations, mask_probability=0.3):
     """
