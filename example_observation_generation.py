@@ -15,13 +15,13 @@ def create_example_system():
 
     return LinearModel(**params)
 
-def generate_sample_actions(n_steps, action_type='sinusoidal', time_step=0.1):
+def generate_sample_actions(n_steps, action_type='random_zeros_and_actions', time_step=0.1):
     """Generate different types of action sequences"""
     
     # Create proper time vector based on the model's time step
     t = np.arange(n_steps) * time_step
     
-    if action_type == 'sinusoidal':
+    if action_type == 'random_zeros_and_actions':
         # Start with first action = 20
         actions = np.zeros(n_steps)
         actions[0] = 20
@@ -29,7 +29,7 @@ def generate_sample_actions(n_steps, action_type='sinusoidal', time_step=0.1):
         i = 1
         while i < n_steps:
             # Random number of zeros (1-5)
-            num_zeros = np.random.randint(1, 6)
+            num_zeros = np.random.randint(1, 10)
             for j in range(num_zeros):
                 if i < n_steps:
                     actions[i] = 0
@@ -39,13 +39,14 @@ def generate_sample_actions(n_steps, action_type='sinusoidal', time_step=0.1):
             if i < n_steps:
                 actions[i] = np.random.uniform(0.1, 30)
                 i += 1
+           
         
     elif action_type == 'step':
         # Step function - modified to be non-negative
         actions = np.ones(n_steps) * 0.3
         actions[n_steps//2:] = 0.1
         
-    elif action_type == 'random':
+    elif action_type == 'random_non_negative':
         # Random actions - modified to be non-negative
         np.random.seed(42)
         actions = np.abs(np.random.normal(0.5, 0.3, n_steps))
@@ -114,7 +115,8 @@ def main():
     
     # Generate different types of action sequences
     n_steps = 200
-    action_types = ['sinusoidal', 'random']
+    # action_types = ['random_zeros_and_actions', 'random_actions']
+    action_types = ['random_zeros_and_actions']
     
     for action_type in action_types:
         print(f"\nGenerating observations for {action_type} actions...")
@@ -172,7 +174,7 @@ if __name__ == "__main__":
     # load_and_analyze_example()
     person_name = "first_person"  # Change this for different people
     save_dir = f"observations/{person_name}"
-    base_filename = f"observations_sinusoidal"
+    base_filename = f"observations_random_zeros_and_actions_for_Q0_initialModel_0"
     load_observations(base_filename, format='npz', dir_name=save_dir)    
     print("\n" + "="*50)
     print("Observation generation complete!")

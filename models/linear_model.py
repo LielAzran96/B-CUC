@@ -72,9 +72,6 @@ class LinearModel_Estimator():
             raise e
 
     def predict(self, action):
-        
-       
-
         Bu = (self.B @ action).reshape(-1, 1)  # control input in the form of Bu
         next_obs, next_var = self.esde.predict_an(
             self._last_obs, self._last_var, Bu,

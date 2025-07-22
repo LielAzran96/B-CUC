@@ -17,17 +17,27 @@ class ConformalPcontrol:
         lower_bound = (meu - self.q * sigma).item()
         upper_bound = (meu + self.q * sigma).item()
         # self.C = [pd.Interval(l.item(), u.item(), closed='both') for l, u in zip(lower_bound, upper_bound)]
-
-        self.C = pd.Interval(left=lower_bound, right=upper_bound, closed='both') # 'both', 'left', 'right', or 'neither'
+        if lower_bound > upper_bound:
+            print("Warning: Lower bound is greater than upper bound. Adjusting bounds.")
+            print(f"Lower bound: {lower_bound}, Upper bound: {upper_bound}")
+            print(f"Meu: {meu}, Sigma: {sigma}, q: {self.q}")
+            raise ValueError("Lower bound cannot be greater than upper bound.")
+        try:
+            self.C = pd.Interval(left=lower_bound, right=upper_bound, closed='both') # 'both', 'left', 'right', or 'neither'
+        except Exception as e:
+            print(f"Error occurred while creating interval: {e}")
+            print(f"Meu: {meu}, Sigma: {sigma}, q: {self.q}")
+            print(f"Lower bound: {lower_bound}, Upper bound: {upper_bound}")
+            raise e
         return self.C
     
     def compute_error(self,obs):
         # e_t = [xi in interval for interval, xi in zip(self.C, obs)]
         e_t = 1- int(obs in self.C)
-        print(f"e_t:{e_t}, mean = {np.mean(self.E)}")
+        self.E.append(e_t)
+        print(f"e_t:{e_t}, mean_error = {np.mean(self.E)}")
         # if len(e_t) == 1:
         #     e_t = 1- int(e_t[0])
-        self.E.append(e_t)
         return e_t
     
     def compute_score(self, obs, meu, sigma):
