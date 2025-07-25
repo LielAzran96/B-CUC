@@ -3,7 +3,16 @@ import pandas as pd
 from typing import Optional
 
 class ConformalPcontrol:
-    def __init__(self, q_0, alpha=0.15, beta=0.1, n=1):
+    def __init__(
+        self, 
+        q_0, 
+        alpha, 
+        beta, 
+        n, 
+        eta_max,
+        gamma
+        ):
+        self.gamma = gamma
         self.alpha = alpha
         self.beta = beta
         self.q = q_0
@@ -12,10 +21,12 @@ class ConformalPcontrol:
         self.C = None
         self.eta = None
         self.n = n  # Dimension of the model, used for scaling if needed
+        self.eta_max = eta_max
         
     def compute_interval(self, meu, sigma) -> Optional[pd.Interval]:
-        lower_bound = (meu - self.q * sigma).item()
-        upper_bound = (meu + self.q * sigma).item()
+        margin = 1e-3  # e.g., 1e-6 or 1e-3, for false positive
+        lower_bound = (meu - self.q * sigma - margin).item()
+        upper_bound = (meu + self.q * sigma + margin).item()
         # self.C = [pd.Interval(l.item(), u.item(), closed='both') for l, u in zip(lower_bound, upper_bound)]
         if lower_bound > upper_bound:
             print("Warning: Lower bound is greater than upper bound. Adjusting bounds.")
@@ -51,15 +62,24 @@ class ConformalPcontrol:
         return s_t
     
     def compute_eta(self) -> Optional[float]:
-        self.eta = self.beta * np.max(self.S) if self.S else 0
+        self.eta = min(self.beta * np.max(self.S) if self.S else 0, self.eta_max)
+        print(f"Computed eta: {self.eta}, eta_max: {self.eta_max}")
+        print(f"Max score: {np.max(self.S) if self.S else 0}")
         return self.eta
     
     def compute_quantile(self):
-        mean_last_k = np.mean(self.E[-10:])
-        print(f"mean_last_k: {mean_last_k}")
-        q_t1 = self.q + self.eta * (mean_last_k - self.alpha)
-        
+        #mean_last_k = np.mean(self.E[-10:])
+        total_mean = np.mean(self.E)
+        mean = total_mean # we try sometimes last k, and sometimes all
+        name  = "mean" if mean is total_mean else "mean_last_k"
+        delta = mean - self.alpha
+        # q_t1 = self.q * np.exp(self.eta * delta)
+        print(f"{name}: {mean}")
+        # q_t1 = self.q + self.eta * (mean_last_k - self.alpha)
+        # q_t1 = (1 - self.gamma) * self.q + self.gamma * q_t1
+        q_t1 = self.q + self.eta * delta
         q_t1 = max(q_t1, 0.001)  # Ensure q does not go below a threshold
+        
         self.q = q_t1
         return self.q
     

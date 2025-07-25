@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from hypernet import ConfNet, SeqHyper, HyperNet
+from filter.hypernet import ConfNet, SeqHyper, HyperNet
 # from stable_baselines3.common.utils_lqgPPO import to_tensor
 import numpy as np
 

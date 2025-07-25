@@ -1,7 +1,7 @@
 import numpy as np
 from typing import Optional, Union
 import torch
-from NESDE import ESDE
+from filter.NESDE import ESDE
 
 class LinearModel():
     '''
