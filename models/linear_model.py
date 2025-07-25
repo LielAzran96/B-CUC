@@ -94,7 +94,7 @@ class LinearModel_Estimator():
                     self._last_obs, self._last_var,
                     mask, obs.flatten(), self.R
                 )
-
+        
         self.dist_estimates.append({'mean': cond_dist_mu, 'var': cond_dist_sigma})
 
         self._last_obs = cond_dist_mu
