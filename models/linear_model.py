@@ -94,7 +94,8 @@ class LinearModel_Estimator():
                     self._last_obs, self._last_var,
                     mask, obs.flatten(), self.R
                 )
-        
+        print(f"Conditional distribution mean: {cond_dist_mu}, obs: {obs.flatten()}, conditional variance: {cond_dist_sigma}")
+        self.dist_estimates.pop()  # Remove the last estimate (which came from the predict step) before appending the new one
         self.dist_estimates.append({'mean': cond_dist_mu, 'var': cond_dist_sigma})
 
         self._last_obs = cond_dist_mu

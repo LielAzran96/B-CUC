@@ -108,13 +108,14 @@ for debug usage
 
 
 
-def main(person_name, initial_Q , action_type, file_format):
+def main(dir_path, initial_Q , action_type, file_format):
     """Main function to demonstrate observation generation and saving"""
     print("Creating linear system...")
     system = create_example_system()
+    print(system.Q)
     
     # Generate different types of action sequences
-    n_steps = 200
+    n_steps = 1000
    
     print(f"\nGenerating observations for {action_type} actions...")
     
@@ -128,7 +129,7 @@ def main(person_name, initial_Q , action_type, file_format):
     print(f"Observation shape: {data['observations'][0].shape}")
     
     # Final save_dir fallback
-    save_dir = f"observations/{person_name}"
+    save_dir = f"{dir_path}"
     base_filename = f"observations_{action_type}_for_Q{system.Q.item()}_initialModel_{initial_Q}"
     
     # Save observations
@@ -142,7 +143,7 @@ def main(person_name, initial_Q , action_type, file_format):
        
 def parse_args():
     parser = argparse.ArgumentParser(description="Run adaptive calibration pipeline.")
-    parser.add_argument("--person_name", type=str, default="first_person", help="Name of the person (used for folder naming)")
+    parser.add_argument("--dir_path", type=str, default="observations/first_person", help="Name of the person (used for folder naming)")
     parser.add_argument("--action_type", type=str, default="random_zeros_and_actions", help="Action type for observation generation")
     parser.add_argument("--initial_Q", type=str, default="0.0001", help="Initial Q value")
     parser.add_argument("--format", type=str, default="npz", choices=["npz", "csv", "json", "mat"], help="File format to load")
@@ -158,7 +159,7 @@ if __name__ == "__main__":
 
     # === Run your pipeline ===
     # Step 1: Generate observations (this should save files in save_dir)
-    main(person_name=args.person_name, initial_Q=args.initial_Q , action_type=args.action_type, file_format=args.format)
+    main(dir_path=args.dir_path, initial_Q=args.initial_Q , action_type=args.action_type, file_format=args.format)
 
     print("Observation generation complete!")
     print("\nRecommended workflow:")
