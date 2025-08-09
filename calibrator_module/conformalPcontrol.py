@@ -22,11 +22,14 @@ class ConformalPcontrol:
         self.eta = None
         self.n = n  # Dimension of the model, used for scaling if needed
         self.eta_max = eta_max
+        self.E_bar = []  # Store mean errors for quantile computation
         
     def compute_interval(self, meu, sigma) -> Optional[pd.Interval]:
         margin = 1e-3  # e.g., 1e-6 or 1e-3, for false positive
         lower_bound = (meu - self.q * sigma - margin).item()
         upper_bound = (meu + self.q * sigma + margin).item()
+        # lower_bound = (meu - sigma - margin).item()
+        # upper_bound = (meu + sigma + margin).item()
         # self.C = [pd.Interval(l.item(), u.item(), closed='both') for l, u in zip(lower_bound, upper_bound)]
         if lower_bound > upper_bound:
             print("Warning: Lower bound is greater than upper bound. Adjusting bounds.")
@@ -67,9 +70,10 @@ class ConformalPcontrol:
         print(f"Max score: {np.max(self.S) if self.S else 0}")
         return self.eta
     
-    def compute_quantile(self):
+    def compute_quantile(self, Q):
         #mean_last_k = np.mean(self.E[-10:])
         total_mean = np.mean(self.E)
+        self.E_bar.append(total_mean)
         mean = total_mean # we try sometimes last k, and sometimes all
         name  = "mean" if mean is total_mean else "mean_last_k"
         delta = mean - self.alpha
@@ -77,12 +81,17 @@ class ConformalPcontrol:
         print(f"{name}: {mean}")
         # q_t1 = self.q + self.eta * (mean_last_k - self.alpha)
         # q_t1 = (1 - self.gamma) * self.q + self.gamma * q_t1
-        q_t1 = self.q + self.eta * delta
-        q_t1 = max(q_t1, 0.001)  # Ensure q does not go below a threshold
+        # q_t1 = self.q + self.eta * delta
         
-        self.q = q_t1
-        return self.q
-    
+        Q_t1 = Q + self.eta*delta
+        
+        # q_t1 = max(q_t1, 0.001)  # Ensure q does not go below a threshold
+        Q_t1 = max(Q_t1, np.array([0.0001]))  # Ensure Q does not go below a threshold
+        
+        self.q = Q_t1
+        # return self.q
+        return Q_t1
+
     
 
 

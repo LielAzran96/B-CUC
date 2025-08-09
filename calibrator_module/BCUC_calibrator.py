@@ -15,7 +15,7 @@ class BCUC_Calibrator:
         self.model = copy.deepcopy(initial_model)
         self.beta = beta
         self.alpha = alpha
-        self.q = 1.0 # initial quantile
+        self.q = np.array([2.0]) # initial quantile
         self.Q = self.model.get_param('Q') # initial Q matrix
         self.n = self.model.get_dimention() # dimention of the model
         self.lam = 0.1  # lambda for updating Q matrix
@@ -65,11 +65,12 @@ class BCUC_Calibrator:
             self.q_history.append(self.q)
             meu, cov = self.model.predict(action)
             self.meu_history.append(meu.flatten().copy())
+            
             if self.model.state_dim == 1:
                     sigma = np.sqrt(cov)
             else:
                     sigma = cov
-
+            # Compute the conformal prediction interval
             self.interval_widths.append(2*sigma.flatten())
 
             if not np.isnan(obs).any():
@@ -80,10 +81,11 @@ class BCUC_Calibrator:
                 self.conformal_p_control.compute_error(obs)
                 self.conformal_p_control.compute_eta()  
                 if counter % 1 == 0:
-                    self.q = self.conformal_p_control.compute_quantile()
-
+                    self.q = self.conformal_p_control.compute_quantile(self.q)
+                    # Q_new = self.conformal_p_control.compute_quantile(self.Q)
                     # Update the model's Q matrix based on the calibrated quantile
                     Q_new  = np.pow(self.q, 2) * self.Q
+                 
                     # updated_Q = (1 - self.lam) * self.Q + self.lam * Q_new
                     self.model.update_params(Q = Q_new)
                     self.Q = self.model.get_param('Q')
