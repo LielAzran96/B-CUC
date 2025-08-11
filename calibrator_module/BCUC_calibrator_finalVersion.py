@@ -1,12 +1,9 @@
-import numpy as np
-from models.linear_model import LinearModel_Estimator
-from calibrator_module.conformalPcontrol import ConformalPcontrol
-import copy
+
 
 
 import numpy as np
 from models.linear_model import LinearModel_Estimator
-from calibrator_module.conformalPcontrol import ConformalPcontrol
+from calibrator_module.conformalPcontrol_finalVersion import ConformalPcontrol
 import copy
 
 
@@ -18,22 +15,15 @@ class BCUC_Calibrator:
             alpha: float = 0.32, #for matching gaussian coverage and making Q_t converge to real Q* 
             gamma: float = 0.1, 
             eta_max: float = 0.5,
-            mode: str = "quantile_coupled"  # "quantile_coupled" or "quantile_free"
+            lambd: float = 0.01  # lambda for updating Q matrix 
         ):
-        """
-        mode:
-            "quantile_coupled" -> learn q_t with ConformalPcontrol and set Q from q (anchored)
-            "quantile_free"    -> DO NOT use q; log s_t and e_t via ConformalPcontrol (with q=1),
-                                  and update Q directly from coverage error in log-space.
-        """
         self.model = copy.deepcopy(initial_model)
         self.beta = beta
         self.alpha = alpha
         self.gamma = gamma
         self.eta_max = eta_max
-        self.mode = mode
-
-        self.q = np.array([1.0])  # initial quantile (used only in quantile_coupled mode)
+        self.lambd = lambd
+        self.q = np.array([2.0])  # initial quantile (used only in quantile_coupled mode)
         self.Q = self.model.get_param('Q')  # initial Q matrix
         self.n = self.model.get_dimention()  # model dimension
 
@@ -67,11 +57,12 @@ class BCUC_Calibrator:
     def _proj_Q(self, Q):
         return np.clip(Q, self.Q_min, self.Q_max)
 
-    def _update_Q_from_quantile_anchor(self, q_new):
+    def _update_Q_from_quantile_anchor(self, q):
         """Anchored Q update: Q = (EMA(q)^2) * Q_anchor  (prevents compounding drift)."""
-        self.q_ema = self.q_ema_beta * self.q_ema + (1.0 - self.q_ema_beta) * float(np.asarray(q_new).reshape(-1)[0])
-        q_eff = max(self.q_ema, 1e-6)
-        Q_new = (q_eff ** 2) * self.Q_anchor
+        
+        Q_new = (q ** 2) * self.Q
+        Q_new = self.lambd* Q_new + (1-self.lambd) * self.Q  # lambda for smoothing
+        
         return self._proj_Q(Q_new)
 
     def _eta_from_S(self):
@@ -145,50 +136,47 @@ class BCUC_Calibrator:
 
                 counter += 1
 
-                if self.mode == "quantile_coupled":
-                    self.z2.append(np.mean((obs - meu)**2 / std_vec**2))
-                    print("mean standardized squared error:", self.z2[-1])
-                    # --- learn q via conformal p-control (your original path) ---
-                    # score & interval/error computed with controller's current q
-                    self.conformal_p_control.compute_score(obs, meu, std_vec if self.model.state_dim==1 else cov)
-                    self.conformal_p_control.compute_interval(meu, std_vec)   # use μ ± q*σ (inside the class)
-                    self.conformal_p_control.compute_error(obs)
-                    self.conformal_p_control.compute_eta()
+                # --- learn q via conformal p-control (your original path) ---
+                # score & interval/error computed with controller's current q
+                self.conformal_p_control.compute_score(obs, meu, std_vec if self.model.state_dim==1 else cov)
+                self.conformal_p_control.compute_interval(meu, std_vec)   # use μ ± q*σ (inside the class)
+                self.conformal_p_control.compute_error(obs)
+                self.conformal_p_control.compute_eta()
 
-                    # update q and then Q from q (anchored)
-                    if counter % 1 == 0:
-                        self.q = self.conformal_p_control.compute_quantile(self.q)
-                        Q_new = self._update_Q_from_quantile_anchor(self.q)
-                        self.model.update_params(Q=Q_new)
-                        self.Q = self.model.get_param('Q')
+                # update q and then Q from q (anchored)
+                if counter % 15 == 0:
+                    self.q = self.conformal_p_control.compute_quantile(self.q)
+                    Q_new = self._update_Q_from_quantile_anchor(self.q)
+                    self.model.update_params(Q=Q_new)
+                    self.Q = self.model.get_param('Q')
 
-                elif self.mode == "quantile_free":
-                    # --- DO NOT use q; log s_t and e_t via ConformalPcontrol with q=1 ---
-                    # 1) score s_t (stored in S)
-                    self.conformal_p_control.compute_score(obs, meu, std_vec if self.model.state_dim==1 else cov)
+                # elif self.mode == "quantile_free":
+                #     # --- DO NOT use q; log s_t and e_t via ConformalPcontrol with q=1 ---
+                #     # 1) score s_t (stored in S)
+                #     self.conformal_p_control.compute_score(obs, meu, std_vec if self.model.state_dim==1 else cov)
 
-                    # 2) temporarily set q=1 to compute interval μ ± σ, then error e_t (stored in E)
-                    old_q = np.copy(self.conformal_p_control.q)
-                    self.conformal_p_control.q = np.array([1.0])
-                    self.conformal_p_control.compute_interval(meu, std_vec)
-                    self.conformal_p_control.compute_error(obs)
-                    #self.conformal_p_control.compute_eta()  # optional
-                    self.conformal_p_control.q = old_q
+                #     # 2) temporarily set q=1 to compute interval μ ± σ, then error e_t (stored in E)
+                #     old_q = np.copy(self.conformal_p_control.q)
+                #     self.conformal_p_control.q = np.array([1.0])
+                #     self.conformal_p_control.compute_interval(meu, std_vec)
+                #     self.conformal_p_control.compute_error(obs)
+                #     #self.conformal_p_control.compute_eta()  # optional
+                #     self.conformal_p_control.q = old_q
 
-                    # 3) pull E_bar and S_max and update Q (quantile-free)
-                    E_bar = self.conformal_p_control.compute_E_bar()
+                #     # 3) pull E_bar and S_max and update Q (quantile-free)
+                #     E_bar = self.conformal_p_control.compute_E_bar()
                     
-                    #if len(self.conformal_p_control.S):
-                    self.S_max = max(self.S_max, float(self.conformal_p_control.compute_S_max()))
-                    # try:
-                    #     self.S_max = max(self.S_max, float(self.conformal_p_control.compute_S_max()))
-                    # except Exception:
-                    #     self.S_max = max(self.S_max, float(np.max(np.asarray(self.conformal_p_control.S, dtype=float))))
+                #     #if len(self.conformal_p_control.S):
+                #     self.S_max = max(self.S_max, float(self.conformal_p_control.compute_S_max()))
+                #     # try:
+                #     #     self.S_max = max(self.S_max, float(self.conformal_p_control.compute_S_max()))
+                #     # except Exception:
+                #     #     self.S_max = max(self.S_max, float(np.max(np.asarray(self.conformal_p_control.S, dtype=float))))
                             
-                    if counter % 1 == 0:
-                        Q_new = self._update_Q_direct_from_error(E_bar)
-                        self.model.update_params(Q=Q_new)
-                        self.Q = self.model.get_param('Q')
+                #     if counter % 1 == 0:
+                #         Q_new = self._update_Q_direct_from_error(E_bar)
+                #         self.model.update_params(Q=Q_new)
+                #         self.Q = self.model.get_param('Q')
 
                 # finally assimilate the obs into the state
                 self.model.update(obs)

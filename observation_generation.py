@@ -115,7 +115,7 @@ def main(dir_path, initial_Q , action_type, file_format):
     print(system.Q)
     
     # Generate different types of action sequences
-    n_steps = 1000
+    n_steps = 10000
    
     print(f"\nGenerating observations for {action_type} actions...")
     

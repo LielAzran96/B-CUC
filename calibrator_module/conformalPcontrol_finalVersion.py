@@ -38,6 +38,7 @@ class ConformalPcontrol:
         n: int,
         eta_max: float,
         gamma: float,
+        k: int = 200
     ):
         """
         Parameters
@@ -54,12 +55,15 @@ class ConformalPcontrol:
             Upper bound for the step size eta.
         gamma : float
             Smoothing/mixing parameter (not used in current active logic—kept for parity with your code).
+        k : int
+            Number of last scores and errors to keep in S and E (default 50).
         """
+        
         self.gamma = gamma
         self.alpha = alpha
         self.beta = beta
         self.q = q_0
-
+        self.k = k #keeping the last k values in E and S
         # Running logs
         self.S: list = []          # scores s_t
         self.E: list = []          # errors e_t ∈ {0,1}
@@ -142,6 +146,7 @@ class ConformalPcontrol:
         """
         e_t = 1 - int(obs in self.C)
         self.E.append(e_t)
+  
         print(f"e_t:{e_t}, mean_error = {np.mean(self.E)}")
         return e_t
 
@@ -154,7 +159,13 @@ class ConformalPcontrol:
         float
             mean(E) if E is non-empty, else 0.0 (exactly as your original).
         """
-        return float(np.mean(self.E)) if len(self.E) else 0.0
+        if len(self.E):
+            if len(self.E) > self.k:
+                return float(np.mean((self.E[-self.k:])))
+            else:
+                return float(np.mean(self.E))
+        else:
+            return 0.0
 
     def compute_score(
         self,
@@ -190,6 +201,8 @@ class ConformalPcontrol:
         else:
             s_t = np.sqrt((obs - meu).T @ np.linalg.inv(sigma) @ (obs - meu))
         self.S.append(s_t)
+        if len(self.S) > self.k:
+            self.S = self.S[-self.k:]
         return s_t
 
     def compute_S_max(self) -> float:
@@ -201,6 +214,7 @@ class ConformalPcontrol:
         float
             max(S) if S is non-empty, else 0.0 (exactly as your original).
         """
+        
         return float(np.max(self.S)) if len(self.S) else 0.0
 
     def compute_eta(self) -> Optional[float]:
@@ -242,10 +256,10 @@ class ConformalPcontrol:
         - The lower bound floor is kept: max(Q_t1, 0.0001).
         - We append the current mean(E) to E_bar history (unchanged).
         """
-        total_mean = np.mean(self.E)
+        total_mean = self.compute_E_bar()
         self.E_bar.append(total_mean)
         mean = total_mean  # original choice (sometimes you tried last-k; here it's all-time mean)
-        name = "mean" if mean is total_mean else "mean_last_k"
+        name = "mean_last_k"
         delta = mean - self.alpha
         print(f"{name}: {mean}")
 

@@ -27,7 +27,7 @@ params = {
     'A': np.array([[np.log(0.95)]], dtype=np.float64),  # Slight decay over time (drug clearance)
     'B': np.array([[0.1]], dtype=np.float64),   # Dosage affects concentration directly
     # 'Q': np.array([[1.5]], dtype=np.float64),  
-    'Q': np.array([[0.0001]], dtype=np.float64),  
+    'Q': np.array([[0.5]], dtype=np.float64),  
 
     'R': np.array([[0.0001]], dtype=np.float64),  # Measurement noise in blood test
     'H': np.array([[1.0]]),                     # Direct observation of concentration
