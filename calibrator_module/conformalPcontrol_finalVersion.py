@@ -81,7 +81,8 @@ class ConformalPcontrol:
     def compute_interval(
         self,
         meu: Union[float, np.ndarray],
-        sigma: Union[float, np.ndarray]
+        sigma: Union[float, np.ndarray],
+        flag: bool = False
     ) -> Optional[pd.Interval]:
         """
         Build a 1D prediction interval around `meu` using the current q and `sigma`.
@@ -110,7 +111,8 @@ class ConformalPcontrol:
         margin = 1e-3  # small margin to avoid boundary false-positives
         lower_bound = (meu - self.q * sigma - margin).item()
         upper_bound = (meu + self.q * sigma + margin).item()
-
+        print_for_debug(f"q in compute interval = {self.q}", flag)
+        
         if lower_bound > upper_bound:
             print("Warning: Lower bound is greater than upper bound. Adjusting bounds.")
             print(f"Lower bound: {lower_bound}, Upper bound: {upper_bound}")
