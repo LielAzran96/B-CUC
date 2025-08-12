@@ -2,7 +2,10 @@ import numpy as np
 import pandas as pd
 from typing import Optional, Iterable, Union
 
-
+def print_for_debug(to_print : str, flag : bool = False):
+    if flag:
+        print(to_print)
+                    
 class ConformalPcontrol:
     """
     Conformal-P controller for online coverage calibration.
@@ -38,7 +41,7 @@ class ConformalPcontrol:
         n: int,
         eta_max: float,
         gamma: float,
-        k: int = 200
+        k: int = 75
     ):
         """
         Parameters
@@ -147,7 +150,7 @@ class ConformalPcontrol:
         e_t = 1 - int(obs in self.C)
         self.E.append(e_t)
   
-        print(f"e_t:{e_t}, mean_error = {np.mean(self.E)}")
+        print_for_debug(f"e_t:{e_t}, mean_error = {np.mean(self.E)}")
         return e_t
 
     def compute_E_bar(self) -> float:
@@ -232,8 +235,8 @@ class ConformalPcontrol:
         - This function only computes and stores eta; it does not update q or Q.
         """
         self.eta = min(self.beta * np.max(self.S) if self.S else 0, self.eta_max)
-        print(f"Computed eta: {self.eta}, eta_max: {self.eta_max}")
-        print(f"Max score: {np.max(self.S) if self.S else 0}")
+        print_for_debug(f"Computed eta: {self.eta}, eta_max: {self.eta_max}")
+        print_for_debug(f"Max score: {np.max(self.S) if self.S else 0}")
         return self.eta
 
     def compute_quantile(self, Q: Union[float, np.ndarray]) -> Union[float, np.ndarray]:
@@ -261,7 +264,7 @@ class ConformalPcontrol:
         mean = total_mean  # original choice (sometimes you tried last-k; here it's all-time mean)
         name = "mean_last_k"
         delta = mean - self.alpha
-        print(f"{name}: {mean}")
+        print_for_debug(f"{name}: {mean}")
 
         # === original update logic preserved ===
         Q_t1 = Q + self.eta * delta
