@@ -6,9 +6,8 @@ from models.linear_model import LinearModel_Estimator
 from calibrator_module.conformalPcontrol_finalVersion import ConformalPcontrol
 import copy
 from scipy.stats import norm
-from collections import deque
 
-class DirectQCalibrator:
+class conformalPrediction_Calibrator:
     def __init__(
             self, 
             initial_model: LinearModel_Estimator, 
@@ -25,7 +24,7 @@ class DirectQCalibrator:
         self.gamma = gamma
         self.eta_max = eta_max
         self.lambd = lambd
-        self.initial_q = np.array([1.0])  #not really used
+        self.initial_q = np.array([2.0])  # initial quantile (used only in quantile_coupled mode)
         self.initial_Q = self.model.get_param('Q')  # initial Q matrix
         self.n = self.model.get_dimention()  # model dimension
         self.update_after_every = update_after_every  # update Q after every n observations
@@ -40,15 +39,30 @@ class DirectQCalibrator:
     def _proj_Q(self, Q):
         return np.clip(Q, self.Q_min, self.Q_max)
 
-    def _update_Q(self, Q_new):
+    def _update_Q_from_quantile_anchor(self, q):
+        """Anchored Q update: Q = (EMA(q)^2) * Q_anchor  (prevents compounding drift)."""
         
+        Q_new = (q ** 2) * self.Q
         Q_new = self.lambd* Q_new + (1-self.lambd) * self.Q  # lambda for smoothing
         
         return self._proj_Q(Q_new)
 
+    # def _eta_from_S(self):
+    #     # eta_t = min(eta_max, beta * max(S_1:t))
+    #     return min(self.eta_max, self.beta * max(self.S_max, 1e-6))
+
+    # def _update_Q_direct_from_error(self, E_bar):
+    #     """Quantile-free Q update in log-space: log Q_{t+1} = log Q_t + eta_t (E_bar - alpha)."""
+    #     # eta_t = self._eta_from_S()
+    #     eta_t = self.conformal_p_control.compute_eta()
+    #     self.logQ = self.logQ + eta_t * (E_bar - self.alpha)
+    #     Q_new = np.exp(self.logQ)
+    #     return self._proj_Q(Q_new)
+    # # -----------------------------
 
     def calibrate_model(self, observations: np.ndarray, actions: np.ndarray = None, reset_obs=True):
         # reset run logs
+        self._scores = []
         self.interval_widths = []
         self.Q_history = []
         self.q_history = []
@@ -115,17 +129,19 @@ class DirectQCalibrator:
 
                 # --- learn q via conformal p-control (your original path) ---
                 # score & interval/error computed with controller's current q
-                self.conformal_p_control.compute_score(obs, meu, std_vec if self.model.state_dim==1 else cov)
-                self.conformal_p_control.q = 1  # reset q before calculating the interval
-                self.conformal_p_control.compute_interval(meu, std_vec)   # use μ ± σ (inside the class)
+                s_t = self.conformal_p_control.compute_score(obs, meu, std_vec if self.model.state_dim==1 else cov)
+                self._scores.append(s_t)  # Store scores for later use
+                self.conformal_p_control.q = self.q
+                self.conformal_p_control.compute_interval(meu, std_vec)   # use μ ± q*σ (inside the class)
                 self.conformal_p_control.compute_error(obs)
                 self.conformal_p_control.compute_eta()
 
                 # update q and then Q from q (anchored) every number of observations 
                 if counter % self.update_after_every== 0:
-                    #here we use conformal_p_control to compute Q directly instead of q.
-                    Q = self.conformal_p_control.compute_quantile(self.Q) 
-                    Q_new = self._update_Q(Q)
+                    # self.q = self.conformal_p_control.compute_quantile(self.q)
+                    self.q = np.quantile(self._scores, 1 - self.alpha)  # quantile from residuals
+                    self._residuals = []
+                    Q_new = self._update_Q_from_quantile_anchor(self.q)
                     self.model.update_params(Q=Q_new)
                     self.Q = self.model.get_param('Q')
 

@@ -56,6 +56,9 @@ class NLLThresholdCalibrator:
             Q_innov = np.mean(self.innovations)
             # Adjust Q based on error rate deviation from alpha
             eta = min(0.3, 0.1 * max(1e-6, np.mean([abs(i) for i in self.innovations])))  # Simple eta based on innovation scale
+            # Adjust threshold dynamically if enough data
+            if len(self.nll_history_full) > self.k:
+                self.threshold_nll = np.percentile(self.nll_history_full, 75)  # 75th percentile as threshold
             Q_adjust = eta * (E_bar - self.alpha)
             Q_new = (1 - self.lambda_) * self.Q + self.lambda_ * (Q_innov + Q_adjust)
             return self._proj_Q(Q_new)
