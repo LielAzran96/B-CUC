@@ -1,0 +1,17 @@
+Creating linear system...
+[0.6]
+
+Generating observations for random_zeros_and_actions actions...
+Generated 10001 observations
+Observation shape: (1,)
+Data saved as observations/observations_random_zeros_and_actions_for_Q0.6_steps_10000.npz
+Model parameters saved as observations/observations_random_zeros_and_actions_for_Q0.6_steps_10000_params.json
+Observation mean: [1.7577283]
+Observation std: [2.31445119]
+Observation generation complete!
+
+Recommended workflow:
+1. Use .npz format for numerical analysis in Python
+2. Use .csv format for analysis in Excel or pandas
+3. Use .json format for human-readable debugging
+4. Use .mat format for MATLAB interoperability

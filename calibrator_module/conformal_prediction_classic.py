@@ -140,7 +140,6 @@ class conformalPrediction_Calibrator:
                 if counter % self.update_after_every== 0:
                     # self.q = self.conformal_p_control.compute_quantile(self.q)
                     self.q = np.quantile(self._scores, 1 - self.alpha)  # quantile from residuals
-                    self._residuals = []
                     Q_new = self._update_Q_from_quantile_anchor(self.q)
                     self.model.update_params(Q=Q_new)
                     self.Q = self.model.get_param('Q')
