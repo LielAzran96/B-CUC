@@ -30,7 +30,7 @@ def generate_sample_actions(n_steps, action_type='random_zeros_and_actions', tim
         i = 1
         while i < n_steps:
             # Random number of zeros (1-5)
-            num_zeros = np.random.randint(1, 10)
+            num_zeros = np.random.randint(1, 30)
             for j in range(num_zeros):
                 if i < n_steps:
                     actions[i] = 0
@@ -108,7 +108,9 @@ for debug usage
 
 
 
-def main(dir_path, n_steps , action_type, file_format):
+def main(dir_path, initial_Q, n_steps , action_type, file_format):
+    
+    params['Q'] = np.array([initial_Q])
     """Main function to demonstrate observation generation and saving"""
     print("Creating linear system...")
     system = create_example_system()
@@ -142,9 +144,10 @@ def main(dir_path, n_steps , action_type, file_format):
        
 def parse_args():
     parser = argparse.ArgumentParser(description="Run adaptive calibration pipeline.")
-    parser.add_argument("--dir_path", type=str, default="observations/first_person", help="Name of the person (used for folder naming)")
+    parser.add_argument("--dir_path", type=str, default="observations", help="name of the folder")
+    parser.add_argument("--initial_Q", type=float, default="0.7", help="initial_Q")
     parser.add_argument("--action_type", type=str, default="random_zeros_and_actions", help="Action type for observation generation")
-    parser.add_argument("--n_steps", type=int, default="0.0001", help="number of steps")
+    parser.add_argument("--n_steps", type=int, default="10000", help="number of steps")
     parser.add_argument("--format", type=str, default="npz", choices=["npz", "csv", "json", "mat"], help="File format to load")
     return parser.parse_args()
 
@@ -158,7 +161,7 @@ if __name__ == "__main__":
 
     # === Run your pipeline ===
     # Step 1: Generate observations (this should save files in save_dir)
-    main(dir_path=args.dir_path, n_steps=args.n_steps , action_type=args.action_type, file_format=args.format)
+    main(dir_path=args.dir_path, initial_Q=args.initial_Q, n_steps=args.n_steps , action_type=args.action_type, file_format=args.format)
 
     print("Observation generation complete!")
     print("\nRecommended workflow:")

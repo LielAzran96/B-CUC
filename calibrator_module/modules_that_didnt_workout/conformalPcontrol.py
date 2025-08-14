@@ -1,7 +1,10 @@
 import numpy as np
 import pandas as pd
 from typing import Optional, Iterable, Union
-
+def print_for_debug(to_print : str, flag : bool = False):
+    if flag:
+        print(to_print)
+                    
 
 class ConformalPcontrol:
     """
@@ -47,7 +50,7 @@ class ConformalPcontrol:
         alpha : float
             Target error rate (1 - target coverage). E.g., 0.32 for μ±σ under Gaussian residuals.
         beta : float
-            Step-size base used inside `compute_eta` (eta = min(eta_max, beta * max(S))).
+            Step-size base used inside `compute_eta` (eta = min(eta_max, beta * max(S))).s
         n : int
             Model/state dimension. Used to switch between 1D vs nD score calculations.
         eta_max : float
@@ -142,7 +145,8 @@ class ConformalPcontrol:
         """
         e_t = 1 - int(obs in self.C)
         self.E.append(e_t)
-        print(f"e_t:{e_t}, mean_error = {np.mean(self.E)}")
+        print_for_debug(f"e_t:{e_t}, mean_error = {np.mean(self.E)}", True)
+
         return e_t
 
     def compute_E_bar(self) -> float:
@@ -218,8 +222,9 @@ class ConformalPcontrol:
         - This function only computes and stores eta; it does not update q or Q.
         """
         self.eta = min(self.beta * np.max(self.S) if self.S else 0, self.eta_max)
-        print(f"Computed eta: {self.eta}, eta_max: {self.eta_max}")
-        print(f"Max score: {np.max(self.S) if self.S else 0}")
+        # self.eta = self.beta * np.max(self.S) if self.S else 0
+        print_for_debug(f"Computed eta: {self.eta}, eta_max: {self.eta_max}",True)
+        print_for_debug(f"Max score: {np.max(self.S) if self.S else 0}", True)
         return self.eta
 
     def compute_quantile(self, Q: Union[float, np.ndarray]) -> Union[float, np.ndarray]:
@@ -242,12 +247,15 @@ class ConformalPcontrol:
         - The lower bound floor is kept: max(Q_t1, 0.0001).
         - We append the current mean(E) to E_bar history (unchanged).
         """
-        total_mean = np.mean(self.E)
+        if len(self.E) > 400:
+            total_mean = np.mean(self.E[-400:])
+        else:
+            total_mean = np.mean(self.E)
         self.E_bar.append(total_mean)
         mean = total_mean  # original choice (sometimes you tried last-k; here it's all-time mean)
         name = "mean" if mean is total_mean else "mean_last_k"
         delta = mean - self.alpha
-        print(f"{name}: {mean}")
+        print_for_debug(f"{name}: {mean}", True)
 
         # === original update logic preserved ===
         Q_t1 = Q + self.eta * delta

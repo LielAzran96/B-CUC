@@ -13,7 +13,7 @@ class NLLBasedQCalibrator:
         self.update_after_every = update_after_every
         self.Q_min, self.Q_max = Q_clip
 
-        self.initial_Q = float(self.model.get_param('Q')[0, 0])  # scalar
+        self.initial_Q = self.model.get_param('Q')  
         self.n = self.model.get_dimention()
         self.Q = self.initial_Q
 

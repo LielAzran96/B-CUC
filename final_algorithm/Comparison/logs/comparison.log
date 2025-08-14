@@ -1,0 +1,61 @@
+Starting the analysis..
+Initial Q matrix: [0.6275]
+Target (true) Q*: 0.01
+[BCUC quantile_coupled]
+metrics: {'E_bar': 0.28554979850316636, 'coverage': 0.7144502014968337, 'mean_interval_width': 0.3351726108909286, 'avg_nll': -0.9813455934013139, 'final_difference': 0.014743392780994844, 'relative_error': 1.4743392780994844}
+final Q: [0.02474339]
+
+[Conformal Prediction quantile_coupled Threshold Calibrator]
+metrics: {'E_bar': 0.5372769142199194, 'coverage': 0.4627230857800806, 'mean_interval_width': 0.23417284609269337, 'avg_nll': -1.269300151057989, 'final_difference': 0.0014279868392486801, 'relative_error': 0.142798683924868}
+final Q: [0.00857201]
+
+[NLL Based Q Calibrator]
+metrics: {'E_bar': 0.0012953367875647714, 'coverage': 0.9987046632124352, 'mean_interval_width': 0.3533854858359815, 'avg_nll': -0.851649895836008, 'final_difference': 0.06371623015568616, 'relative_error': 6.371623015568615}
+final Q: [[0.07371623]]
+
+Target (true) Q*: 0.3
+[BCUC quantile_coupled]
+metrics: {'E_bar': 0.31332757628094415, 'coverage': 0.6866724237190558, 'mean_interval_width': 0.4595502109787244, 'avg_nll': -0.18063237350481282, 'final_difference': 0.0065892880964874, 'relative_error': 0.021964293654958}
+final Q: [0.30658929]
+
+[Conformal Prediction quantile_coupled Threshold Calibrator]
+metrics: {'E_bar': 0.39478986758779505, 'coverage': 0.605210132412205, 'mean_interval_width': 0.402685482878949, 'avg_nll': -0.17897534427473472, 'final_difference': 0.09005040547282975, 'relative_error': 0.30016801824276584}
+final Q: [0.20994959]
+
+[NLL Based Q Calibrator]
+metrics: {'E_bar': 0.23963730569948183, 'coverage': 0.7603626943005182, 'mean_interval_width': 0.4800063145619189, 'avg_nll': -0.17448008403276374, 'final_difference': 0.030683243191679255, 'relative_error': 0.10227747730559753}
+final Q: [[0.33068324]]
+
+Target (true) Q*: 0.7
+[BCUC quantile_coupled]
+metrics: {'E_bar': 0.31390328151986185, 'coverage': 0.6860967184801381, 'mean_interval_width': 0.6141503335279519, 'avg_nll': 0.20047632187098144, 'final_difference': 0.04861809402665718, 'relative_error': 0.06945442003808168}
+final Q: [0.65138191]
+
+[Conformal Prediction quantile_coupled Threshold Calibrator]
+metrics: {'E_bar': 0.3021013241220495, 'coverage': 0.6978986758779505, 'mean_interval_width': 0.6103235681729788, 'avg_nll': 0.2015902249599201, 'final_difference': 0.010958501224632045, 'relative_error': 0.01565500174947435}
+final Q: [0.6890415]
+
+[NLL Based Q Calibrator]
+metrics: {'E_bar': 0.3195164075993091, 'coverage': 0.6804835924006909, 'mean_interval_width': 0.5995914665752459, 'avg_nll': 0.2008055381232564, 'final_difference': 0.04342817522707498, 'relative_error': 0.06204025032439284}
+final Q: [[0.65657182]]
+
+Target (true) Q*: 1.5
+[BCUC quantile_coupled]
+metrics: {'E_bar': 0.31232009211283823, 'coverage': 0.6876799078871618, 'mean_interval_width': 0.8504732326311069, 'avg_nll': 0.6106256204575075, 'final_difference': 0.026998335814496954, 'relative_error': 0.01799889054299797}
+final Q: [1.52699834]
+
+[Conformal Prediction quantile_coupled Threshold Calibrator]
+metrics: {'E_bar': 0.26108232584916524, 'coverage': 0.7389176741508348, 'mean_interval_width': 0.9342723591726799, 'avg_nll': 0.6171336145485282, 'final_difference': 0.32327191250690945, 'relative_error': 0.21551460833793964}
+final Q: [1.82327191]
+
+[NLL Based Q Calibrator]
+metrics: {'E_bar': 0.38759355210132407, 'coverage': 0.6124064478986759, 'mean_interval_width': 0.7894823811765528, 'avg_nll': 0.6346122513294195, 'final_difference': 0.10068006360176707, 'relative_error': 0.06712004240117804}
+final Q: [[1.39931994]]
+
+                              BCUC  Conformal       NLL
+E_bar_mean                0.306275   0.373813  0.237011
+mean_interval_width_mean  0.564837   0.545364  0.555616
+final_difference_mean     0.024237   0.106427  0.059627
+avg_nll_mean             -0.087719  -0.157388 -0.047678
+Q_t plot saved at: plots/all_together/Q_t_over_time.png
+q_t plot saved at: plots/all_together/q_t_over_time_.png

@@ -1,0 +1,24 @@
+Starting the analysis..
+Initial Q matrix: [0.6275]
+Target (true) Q*: 0.01
+[BCUC quantile_coupled]
+metrics: {'E_bar': 0.28554979850316636, 'coverage': 0.7144502014968337, 'mean_interval_width': 0.3351726108909286, 'avg_nll': -0.9813455934013139, 'final_difference': 0.014743392780994844, 'relative_error': 1.4743392780994844}
+final Q: [0.02474339]
+
+Target (true) Q*: 0.3
+[BCUC quantile_coupled]
+metrics: {'E_bar': 0.31332757628094415, 'coverage': 0.6866724237190558, 'mean_interval_width': 0.4595502109787244, 'avg_nll': -0.18063237350481282, 'final_difference': 0.0065892880964874, 'relative_error': 0.021964293654958}
+final Q: [0.30658929]
+
+Target (true) Q*: 0.7
+[BCUC quantile_coupled]
+metrics: {'E_bar': 0.31390328151986185, 'coverage': 0.6860967184801381, 'mean_interval_width': 0.6141503335279519, 'avg_nll': 0.20047632187098144, 'final_difference': 0.04861809402665718, 'relative_error': 0.06945442003808168}
+final Q: [0.65138191]
+
+Target (true) Q*: 1.5
+[BCUC quantile_coupled]
+metrics: {'E_bar': 0.31232009211283823, 'coverage': 0.6876799078871618, 'mean_interval_width': 0.8504732326311069, 'avg_nll': 0.6106256204575075, 'final_difference': 0.026998335814496954, 'relative_error': 0.01799889054299797}
+final Q: [1.52699834]
+
+Q_t plot saved at: plots/all_together/Q_t_over_time.png
+q_t plot saved at: plots/all_together/q_t.png
