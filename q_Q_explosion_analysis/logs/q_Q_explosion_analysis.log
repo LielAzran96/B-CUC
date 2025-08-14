@@ -1,0 +1,2801 @@
+Starting the analysis..
+Initial Q matrix: [0.0001]
+wanted Q matrix: 0.0001
+e_t:0, mean_error = 0.0
+Computed eta: 0.02501024898661247, eta_max: 0.5
+Max score: 0.2501024898661247
+Updated Q : [0.0001], q: [2.]
+e_t:0, mean_error = 0.0
+Computed eta: 0.06984667324914864, eta_max: 0.5
+Max score: 0.6984667324914864
+Updated Q : [0.0001], q: [2.]
+e_t:1, mean_error = 0.3333333333333333
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.0001], q: [2.]
+e_t:1, mean_error = 0.5
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.0001], q: [2.]
+e_t:1, mean_error = 0.6
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.0001], q: [2.]
+e_t:0, mean_error = 0.5
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.0001], q: [2.]
+e_t:0, mean_error = 0.42857142857142855
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.0001], q: [2.]
+e_t:0, mean_error = 0.375
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.0001], q: [2.]
+e_t:1, mean_error = 0.4444444444444444
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.0001], q: [2.]
+e_t:0, mean_error = 0.4
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.4
+Updated Q : [0.00045156], q: [2.125]
+e_t:1, mean_error = 0.45454545454545453
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.00045156], q: [2.125]
+e_t:1, mean_error = 0.5
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.00045156], q: [2.125]
+e_t:1, mean_error = 0.5384615384615384
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.00045156], q: [2.125]
+e_t:0, mean_error = 0.5
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.00045156], q: [2.125]
+e_t:1, mean_error = 0.5333333333333333
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.00045156], q: [2.125]
+e_t:0, mean_error = 0.5
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.00045156], q: [2.125]
+e_t:0, mean_error = 0.47058823529411764
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.00045156], q: [2.125]
+e_t:0, mean_error = 0.4444444444444444
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.00045156], q: [2.125]
+e_t:1, mean_error = 0.47368421052631576
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.00045156], q: [2.125]
+e_t:0, mean_error = 0.45
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.45
+Updated Q : [0.00233712], q: [2.275]
+e_t:0, mean_error = 0.42857142857142855
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.00233712], q: [2.275]
+e_t:0, mean_error = 0.4090909090909091
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.00233712], q: [2.275]
+e_t:0, mean_error = 0.391304347826087
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.00233712], q: [2.275]
+e_t:0, mean_error = 0.375
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.00233712], q: [2.275]
+e_t:0, mean_error = 0.36
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.00233712], q: [2.275]
+e_t:0, mean_error = 0.34615384615384615
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.00233712], q: [2.275]
+e_t:0, mean_error = 0.3333333333333333
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.00233712], q: [2.275]
+e_t:0, mean_error = 0.32142857142857145
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.00233712], q: [2.275]
+e_t:0, mean_error = 0.3103448275862069
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.00233712], q: [2.275]
+e_t:0, mean_error = 0.3
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.3
+Updated Q : [0.01290674], q: [2.35]
+e_t:0, mean_error = 0.2903225806451613
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.01290674], q: [2.35]
+e_t:0, mean_error = 0.28125
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.01290674], q: [2.35]
+e_t:0, mean_error = 0.2727272727272727
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.01290674], q: [2.35]
+e_t:0, mean_error = 0.2647058823529412
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.01290674], q: [2.35]
+e_t:0, mean_error = 0.2571428571428571
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.01290674], q: [2.35]
+e_t:0, mean_error = 0.25
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.01290674], q: [2.35]
+e_t:0, mean_error = 0.24324324324324326
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.01290674], q: [2.35]
+e_t:0, mean_error = 0.23684210526315788
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.01290674], q: [2.35]
+e_t:0, mean_error = 0.23076923076923078
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.01290674], q: [2.35]
+e_t:0, mean_error = 0.225
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.225
+Updated Q : [0.07357041], q: [2.3875]
+e_t:0, mean_error = 0.21951219512195122
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.07357041], q: [2.3875]
+e_t:0, mean_error = 0.21428571428571427
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.07357041], q: [2.3875]
+e_t:0, mean_error = 0.20930232558139536
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.07357041], q: [2.3875]
+e_t:0, mean_error = 0.20454545454545456
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.07357041], q: [2.3875]
+e_t:0, mean_error = 0.2
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.07357041], q: [2.3875]
+e_t:0, mean_error = 0.1956521739130435
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.07357041], q: [2.3875]
+e_t:0, mean_error = 0.19148936170212766
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.07357041], q: [2.3875]
+e_t:0, mean_error = 0.1875
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.07357041], q: [2.3875]
+e_t:0, mean_error = 0.1836734693877551
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.07357041], q: [2.3875]
+e_t:0, mean_error = 0.18
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.18
+Updated Q : [0.42464885], q: [2.4025]
+e_t:0, mean_error = 0.17647058823529413
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.42464885], q: [2.4025]
+e_t:0, mean_error = 0.17307692307692307
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.42464885], q: [2.4025]
+e_t:0, mean_error = 0.16981132075471697
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.42464885], q: [2.4025]
+e_t:0, mean_error = 0.16666666666666666
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.42464885], q: [2.4025]
+e_t:0, mean_error = 0.16363636363636364
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.42464885], q: [2.4025]
+e_t:0, mean_error = 0.16071428571428573
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.42464885], q: [2.4025]
+e_t:0, mean_error = 0.15789473684210525
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.42464885], q: [2.4025]
+e_t:0, mean_error = 0.15517241379310345
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.42464885], q: [2.4025]
+e_t:0, mean_error = 0.15254237288135594
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [0.42464885], q: [2.4025]
+e_t:0, mean_error = 0.15
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.15
+Updated Q : [2.45107579], q: [2.4025]
+e_t:0, mean_error = 0.14754098360655737
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.45107579], q: [2.4025]
+e_t:0, mean_error = 0.14516129032258066
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.45107579], q: [2.4025]
+e_t:0, mean_error = 0.14285714285714285
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.45107579], q: [2.4025]
+e_t:0, mean_error = 0.140625
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.45107579], q: [2.4025]
+e_t:0, mean_error = 0.13846153846153847
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.45107579], q: [2.4025]
+e_t:0, mean_error = 0.13636363636363635
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.45107579], q: [2.4025]
+e_t:0, mean_error = 0.13432835820895522
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.45107579], q: [2.4025]
+e_t:0, mean_error = 0.1323529411764706
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.45107579], q: [2.4025]
+e_t:0, mean_error = 0.13043478260869565
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.45107579], q: [2.4025]
+e_t:0, mean_error = 0.12857142857142856
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.12857142857142856
+Updated Q : [14.02171955], q: [2.39178571]
+e_t:0, mean_error = 0.1267605633802817
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [14.02171955], q: [2.39178571]
+e_t:0, mean_error = 0.125
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [14.02171955], q: [2.39178571]
+e_t:0, mean_error = 0.1232876712328767
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [14.02171955], q: [2.39178571]
+e_t:0, mean_error = 0.12162162162162163
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [14.02171955], q: [2.39178571]
+e_t:0, mean_error = 0.12
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [14.02171955], q: [2.39178571]
+e_t:0, mean_error = 0.11842105263157894
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [14.02171955], q: [2.39178571]
+e_t:0, mean_error = 0.11688311688311688
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [14.02171955], q: [2.39178571]
+e_t:0, mean_error = 0.11538461538461539
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [14.02171955], q: [2.39178571]
+e_t:0, mean_error = 0.11392405063291139
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [14.02171955], q: [2.39178571]
+e_t:0, mean_error = 0.1125
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.1125
+Updated Q : [78.96048826], q: [2.37303571]
+e_t:0, mean_error = 0.1111111111111111
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [78.96048826], q: [2.37303571]
+e_t:0, mean_error = 0.10975609756097561
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [78.96048826], q: [2.37303571]
+e_t:0, mean_error = 0.10843373493975904
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [78.96048826], q: [2.37303571]
+e_t:0, mean_error = 0.10714285714285714
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [78.96048826], q: [2.37303571]
+e_t:0, mean_error = 0.10588235294117647
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [78.96048826], q: [2.37303571]
+e_t:0, mean_error = 0.10465116279069768
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [78.96048826], q: [2.37303571]
+e_t:0, mean_error = 0.10344827586206896
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [78.96048826], q: [2.37303571]
+e_t:0, mean_error = 0.10227272727272728
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [78.96048826], q: [2.37303571]
+e_t:0, mean_error = 0.10112359550561797
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [78.96048826], q: [2.37303571]
+e_t:0, mean_error = 0.1
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.1
+Updated Q : [435.3306266], q: [2.34803571]
+e_t:0, mean_error = 0.0989010989010989
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [435.3306266], q: [2.34803571]
+e_t:0, mean_error = 0.09782608695652174
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [435.3306266], q: [2.34803571]
+e_t:0, mean_error = 0.0967741935483871
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [435.3306266], q: [2.34803571]
+e_t:0, mean_error = 0.09574468085106383
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [435.3306266], q: [2.34803571]
+e_t:0, mean_error = 0.09473684210526316
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [435.3306266], q: [2.34803571]
+e_t:0, mean_error = 0.09375
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [435.3306266], q: [2.34803571]
+e_t:0, mean_error = 0.09278350515463918
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [435.3306266], q: [2.34803571]
+e_t:0, mean_error = 0.09183673469387756
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [435.3306266], q: [2.34803571]
+e_t:0, mean_error = 0.09090909090909091
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [435.3306266], q: [2.34803571]
+e_t:0, mean_error = 0.09
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.09
+Updated Q : [2339.15751656], q: [2.31803571]
+e_t:0, mean_error = 0.0891089108910891
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2339.15751656], q: [2.31803571]
+e_t:0, mean_error = 0.08823529411764706
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2339.15751656], q: [2.31803571]
+e_t:0, mean_error = 0.08737864077669903
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2339.15751656], q: [2.31803571]
+e_t:0, mean_error = 0.08653846153846154
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2339.15751656], q: [2.31803571]
+e_t:0, mean_error = 0.08571428571428572
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2339.15751656], q: [2.31803571]
+e_t:0, mean_error = 0.08490566037735849
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2339.15751656], q: [2.31803571]
+e_t:0, mean_error = 0.08411214953271028
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2339.15751656], q: [2.31803571]
+e_t:0, mean_error = 0.08333333333333333
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2339.15751656], q: [2.31803571]
+e_t:0, mean_error = 0.08256880733944955
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2339.15751656], q: [2.31803571]
+e_t:0, mean_error = 0.08181818181818182
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.08181818181818182
+Updated Q : [12201.99032936], q: [2.28394481]
+e_t:0, mean_error = 0.08108108108108109
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [12201.99032936], q: [2.28394481]
+e_t:0, mean_error = 0.08035714285714286
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [12201.99032936], q: [2.28394481]
+e_t:0, mean_error = 0.07964601769911504
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [12201.99032936], q: [2.28394481]
+e_t:0, mean_error = 0.07894736842105263
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [12201.99032936], q: [2.28394481]
+e_t:0, mean_error = 0.0782608695652174
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [12201.99032936], q: [2.28394481]
+e_t:0, mean_error = 0.07758620689655173
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [12201.99032936], q: [2.28394481]
+e_t:0, mean_error = 0.07692307692307693
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [12201.99032936], q: [2.28394481]
+e_t:0, mean_error = 0.07627118644067797
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [12201.99032936], q: [2.28394481]
+e_t:0, mean_error = 0.07563025210084033
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [12201.99032936], q: [2.28394481]
+e_t:0, mean_error = 0.075
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.075
+Updated Q : [61577.51823153], q: [2.24644481]
+e_t:0, mean_error = 0.0743801652892562
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [61577.51823153], q: [2.24644481]
+e_t:0, mean_error = 0.07377049180327869
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [61577.51823153], q: [2.24644481]
+e_t:0, mean_error = 0.07317073170731707
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [61577.51823153], q: [2.24644481]
+e_t:0, mean_error = 0.07258064516129033
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [61577.51823153], q: [2.24644481]
+e_t:0, mean_error = 0.072
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [61577.51823153], q: [2.24644481]
+e_t:0, mean_error = 0.07142857142857142
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [61577.51823153], q: [2.24644481]
+e_t:0, mean_error = 0.07086614173228346
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [61577.51823153], q: [2.24644481]
+e_t:0, mean_error = 0.0703125
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [61577.51823153], q: [2.24644481]
+e_t:0, mean_error = 0.06976744186046512
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [61577.51823153], q: [2.24644481]
+e_t:0, mean_error = 0.06923076923076923
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.06923076923076923
+Updated Q : [299679.4041039], q: [2.20606019]
+e_t:0, mean_error = 0.06870229007633588
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [299679.4041039], q: [2.20606019]
+e_t:0, mean_error = 0.06818181818181818
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [299679.4041039], q: [2.20606019]
+e_t:0, mean_error = 0.06766917293233082
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [299679.4041039], q: [2.20606019]
+e_t:0, mean_error = 0.06716417910447761
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [299679.4041039], q: [2.20606019]
+e_t:0, mean_error = 0.06666666666666667
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [299679.4041039], q: [2.20606019]
+e_t:0, mean_error = 0.0661764705882353
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [299679.4041039], q: [2.20606019]
+e_t:0, mean_error = 0.06569343065693431
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [299679.4041039], q: [2.20606019]
+e_t:0, mean_error = 0.06521739130434782
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [299679.4041039], q: [2.20606019]
+e_t:0, mean_error = 0.06474820143884892
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [299679.4041039], q: [2.20606019]
+e_t:0, mean_error = 0.06428571428571428
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.06428571428571428
+Updated Q : [1402334.01506445], q: [2.16320305]
+e_t:0, mean_error = 0.06382978723404255
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1402334.01506445], q: [2.16320305]
+e_t:0, mean_error = 0.06338028169014084
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1402334.01506445], q: [2.16320305]
+e_t:0, mean_error = 0.06293706293706294
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1402334.01506445], q: [2.16320305]
+e_t:0, mean_error = 0.0625
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1402334.01506445], q: [2.16320305]
+e_t:0, mean_error = 0.06206896551724138
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1402334.01506445], q: [2.16320305]
+e_t:0, mean_error = 0.06164383561643835
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1402334.01506445], q: [2.16320305]
+e_t:0, mean_error = 0.061224489795918366
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1402334.01506445], q: [2.16320305]
+e_t:0, mean_error = 0.060810810810810814
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1402334.01506445], q: [2.16320305]
+e_t:0, mean_error = 0.06040268456375839
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1402334.01506445], q: [2.16320305]
+e_t:0, mean_error = 0.06
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.06
+Updated Q : [6291970.02916229], q: [2.11820305]
+e_t:0, mean_error = 0.059602649006622516
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [6291970.02916229], q: [2.11820305]
+e_t:0, mean_error = 0.05921052631578947
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [6291970.02916229], q: [2.11820305]
+e_t:0, mean_error = 0.058823529411764705
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [6291970.02916229], q: [2.11820305]
+e_t:0, mean_error = 0.05844155844155844
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [6291970.02916229], q: [2.11820305]
+e_t:0, mean_error = 0.05806451612903226
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [6291970.02916229], q: [2.11820305]
+e_t:0, mean_error = 0.057692307692307696
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [6291970.02916229], q: [2.11820305]
+e_t:0, mean_error = 0.05732484076433121
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [6291970.02916229], q: [2.11820305]
+e_t:0, mean_error = 0.056962025316455694
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [6291970.02916229], q: [2.11820305]
+e_t:0, mean_error = 0.05660377358490566
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [6291970.02916229], q: [2.11820305]
+e_t:0, mean_error = 0.05625
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.05625
+Updated Q : [26995067.44609106], q: [2.07132805]
+e_t:0, mean_error = 0.055900621118012424
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [26995067.44609106], q: [2.07132805]
+e_t:0, mean_error = 0.05555555555555555
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [26995067.44609106], q: [2.07132805]
+e_t:0, mean_error = 0.05521472392638037
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [26995067.44609106], q: [2.07132805]
+e_t:0, mean_error = 0.054878048780487805
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [26995067.44609106], q: [2.07132805]
+e_t:0, mean_error = 0.05454545454545454
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [26995067.44609106], q: [2.07132805]
+e_t:0, mean_error = 0.05421686746987952
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [26995067.44609106], q: [2.07132805]
+e_t:0, mean_error = 0.05389221556886228
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [26995067.44609106], q: [2.07132805]
+e_t:0, mean_error = 0.05357142857142857
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [26995067.44609106], q: [2.07132805]
+e_t:0, mean_error = 0.05325443786982249
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [26995067.44609106], q: [2.07132805]
+e_t:0, mean_error = 0.052941176470588235
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.052941176470588235
+Updated Q : [1.10456104e+08], q: [2.02279864]
+e_t:0, mean_error = 0.05263157894736842
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.10456104e+08], q: [2.02279864]
+e_t:0, mean_error = 0.05232558139534884
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.10456104e+08], q: [2.02279864]
+e_t:0, mean_error = 0.05202312138728324
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.10456104e+08], q: [2.02279864]
+e_t:0, mean_error = 0.05172413793103448
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.10456104e+08], q: [2.02279864]
+e_t:0, mean_error = 0.05142857142857143
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.10456104e+08], q: [2.02279864]
+e_t:0, mean_error = 0.05113636363636364
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.10456104e+08], q: [2.02279864]
+e_t:0, mean_error = 0.05084745762711865
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.10456104e+08], q: [2.02279864]
+e_t:0, mean_error = 0.05056179775280899
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.10456104e+08], q: [2.02279864]
+e_t:0, mean_error = 0.05027932960893855
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.10456104e+08], q: [2.02279864]
+e_t:0, mean_error = 0.05
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.05
+Updated Q : [4.29887917e+08], q: [1.97279864]
+e_t:0, mean_error = 0.049723756906077346
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.29887917e+08], q: [1.97279864]
+e_t:0, mean_error = 0.04945054945054945
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.29887917e+08], q: [1.97279864]
+e_t:0, mean_error = 0.04918032786885246
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.29887917e+08], q: [1.97279864]
+e_t:0, mean_error = 0.04891304347826087
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.29887917e+08], q: [1.97279864]
+e_t:0, mean_error = 0.04864864864864865
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.29887917e+08], q: [1.97279864]
+e_t:0, mean_error = 0.04838709677419355
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.29887917e+08], q: [1.97279864]
+e_t:0, mean_error = 0.0481283422459893
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.29887917e+08], q: [1.97279864]
+e_t:0, mean_error = 0.047872340425531915
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.29887917e+08], q: [1.97279864]
+e_t:0, mean_error = 0.047619047619047616
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.29887917e+08], q: [1.97279864]
+e_t:0, mean_error = 0.04736842105263158
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.04736842105263158
+Updated Q : [1.5871876e+09], q: [1.92148285]
+e_t:0, mean_error = 0.04712041884816754
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.5871876e+09], q: [1.92148285]
+e_t:0, mean_error = 0.046875
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.5871876e+09], q: [1.92148285]
+e_t:0, mean_error = 0.046632124352331605
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.5871876e+09], q: [1.92148285]
+e_t:0, mean_error = 0.04639175257731959
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.5871876e+09], q: [1.92148285]
+e_t:0, mean_error = 0.046153846153846156
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.5871876e+09], q: [1.92148285]
+e_t:0, mean_error = 0.04591836734693878
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.5871876e+09], q: [1.92148285]
+e_t:0, mean_error = 0.04568527918781726
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.5871876e+09], q: [1.92148285]
+e_t:0, mean_error = 0.045454545454545456
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.5871876e+09], q: [1.92148285]
+e_t:0, mean_error = 0.04522613065326633
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.5871876e+09], q: [1.92148285]
+e_t:0, mean_error = 0.045
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.045
+Updated Q : [5.54420005e+09], q: [1.86898285]
+e_t:0, mean_error = 0.04477611940298507
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.54420005e+09], q: [1.86898285]
+e_t:0, mean_error = 0.04455445544554455
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.54420005e+09], q: [1.86898285]
+e_t:0, mean_error = 0.04433497536945813
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.54420005e+09], q: [1.86898285]
+e_t:0, mean_error = 0.04411764705882353
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.54420005e+09], q: [1.86898285]
+e_t:0, mean_error = 0.04390243902439024
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.54420005e+09], q: [1.86898285]
+e_t:0, mean_error = 0.043689320388349516
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.54420005e+09], q: [1.86898285]
+e_t:0, mean_error = 0.043478260869565216
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.54420005e+09], q: [1.86898285]
+e_t:0, mean_error = 0.04326923076923077
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.54420005e+09], q: [1.86898285]
+e_t:0, mean_error = 0.0430622009569378
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.54420005e+09], q: [1.86898285]
+e_t:0, mean_error = 0.04285714285714286
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.04285714285714286
+Updated Q : [1.82721233e+10], q: [1.81541142]
+e_t:0, mean_error = 0.04265402843601896
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.82721233e+10], q: [1.81541142]
+e_t:0, mean_error = 0.04245283018867924
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.82721233e+10], q: [1.81541142]
+e_t:0, mean_error = 0.04225352112676056
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.82721233e+10], q: [1.81541142]
+e_t:0, mean_error = 0.04205607476635514
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.82721233e+10], q: [1.81541142]
+e_t:0, mean_error = 0.04186046511627907
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.82721233e+10], q: [1.81541142]
+e_t:0, mean_error = 0.041666666666666664
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.82721233e+10], q: [1.81541142]
+e_t:0, mean_error = 0.041474654377880185
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.82721233e+10], q: [1.81541142]
+e_t:0, mean_error = 0.04128440366972477
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.82721233e+10], q: [1.81541142]
+e_t:0, mean_error = 0.0410958904109589
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.82721233e+10], q: [1.81541142]
+e_t:0, mean_error = 0.04090909090909091
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.04090909090909091
+Updated Q : [5.66554397e+10], q: [1.76086596]
+e_t:0, mean_error = 0.04072398190045249
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.66554397e+10], q: [1.76086596]
+e_t:0, mean_error = 0.04054054054054054
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.66554397e+10], q: [1.76086596]
+e_t:0, mean_error = 0.04035874439461883
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.66554397e+10], q: [1.76086596]
+e_t:0, mean_error = 0.04017857142857143
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.66554397e+10], q: [1.76086596]
+e_t:0, mean_error = 0.04
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.66554397e+10], q: [1.76086596]
+e_t:0, mean_error = 0.03982300884955752
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.66554397e+10], q: [1.76086596]
+e_t:0, mean_error = 0.039647577092511016
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.66554397e+10], q: [1.76086596]
+e_t:0, mean_error = 0.039473684210526314
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.66554397e+10], q: [1.76086596]
+e_t:0, mean_error = 0.039301310043668124
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.66554397e+10], q: [1.76086596]
+e_t:0, mean_error = 0.0391304347826087
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.0391304347826087
+Updated Q : [1.64782092e+11], q: [1.70543118]
+e_t:0, mean_error = 0.03896103896103896
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.64782092e+11], q: [1.70543118]
+e_t:0, mean_error = 0.03879310344827586
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.64782092e+11], q: [1.70543118]
+e_t:0, mean_error = 0.03862660944206009
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.64782092e+11], q: [1.70543118]
+e_t:0, mean_error = 0.038461538461538464
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.64782092e+11], q: [1.70543118]
+e_t:0, mean_error = 0.03829787234042553
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.64782092e+11], q: [1.70543118]
+e_t:0, mean_error = 0.038135593220338986
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.64782092e+11], q: [1.70543118]
+e_t:0, mean_error = 0.0379746835443038
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.64782092e+11], q: [1.70543118]
+e_t:0, mean_error = 0.037815126050420166
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.64782092e+11], q: [1.70543118]
+e_t:0, mean_error = 0.03765690376569038
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.64782092e+11], q: [1.70543118]
+e_t:0, mean_error = 0.0375
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.0375
+Updated Q : [4.48174097e+11], q: [1.64918118]
+e_t:0, mean_error = 0.03734439834024896
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.48174097e+11], q: [1.64918118]
+e_t:0, mean_error = 0.0371900826446281
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.48174097e+11], q: [1.64918118]
+e_t:0, mean_error = 0.037037037037037035
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.48174097e+11], q: [1.64918118]
+e_t:0, mean_error = 0.036885245901639344
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.48174097e+11], q: [1.64918118]
+e_t:0, mean_error = 0.036734693877551024
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.48174097e+11], q: [1.64918118]
+e_t:0, mean_error = 0.036585365853658534
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.48174097e+11], q: [1.64918118]
+e_t:0, mean_error = 0.03643724696356275
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.48174097e+11], q: [1.64918118]
+e_t:0, mean_error = 0.036290322580645164
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.48174097e+11], q: [1.64918118]
+e_t:0, mean_error = 0.03614457831325301
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.48174097e+11], q: [1.64918118]
+e_t:0, mean_error = 0.036
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.036
+Updated Q : [1.13613967e+12], q: [1.59218118]
+e_t:0, mean_error = 0.035856573705179286
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.13613967e+12], q: [1.59218118]
+e_t:0, mean_error = 0.03571428571428571
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.13613967e+12], q: [1.59218118]
+e_t:0, mean_error = 0.03557312252964427
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.13613967e+12], q: [1.59218118]
+e_t:0, mean_error = 0.03543307086614173
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.13613967e+12], q: [1.59218118]
+e_t:0, mean_error = 0.03529411764705882
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.13613967e+12], q: [1.59218118]
+e_t:0, mean_error = 0.03515625
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.13613967e+12], q: [1.59218118]
+e_t:0, mean_error = 0.03501945525291829
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.13613967e+12], q: [1.59218118]
+e_t:0, mean_error = 0.03488372093023256
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.13613967e+12], q: [1.59218118]
+e_t:0, mean_error = 0.03474903474903475
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.13613967e+12], q: [1.59218118]
+e_t:0, mean_error = 0.03461538461538462
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.03461538461538462
+Updated Q : [2.6752182e+12], q: [1.53448887]
+e_t:0, mean_error = 0.034482758620689655
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.6752182e+12], q: [1.53448887]
+e_t:0, mean_error = 0.03435114503816794
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.6752182e+12], q: [1.53448887]
+e_t:0, mean_error = 0.034220532319391636
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.6752182e+12], q: [1.53448887]
+e_t:0, mean_error = 0.03409090909090909
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.6752182e+12], q: [1.53448887]
+e_t:0, mean_error = 0.033962264150943396
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.6752182e+12], q: [1.53448887]
+e_t:0, mean_error = 0.03383458646616541
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.6752182e+12], q: [1.53448887]
+e_t:0, mean_error = 0.033707865168539325
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.6752182e+12], q: [1.53448887]
+e_t:0, mean_error = 0.033582089552238806
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.6752182e+12], q: [1.53448887]
+e_t:0, mean_error = 0.03345724907063197
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.6752182e+12], q: [1.53448887]
+e_t:0, mean_error = 0.03333333333333333
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.03333333333333333
+Updated Q : [5.82939457e+12], q: [1.47615554]
+e_t:0, mean_error = 0.033210332103321034
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.82939457e+12], q: [1.47615554]
+e_t:0, mean_error = 0.03308823529411765
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.82939457e+12], q: [1.47615554]
+e_t:0, mean_error = 0.03296703296703297
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.82939457e+12], q: [1.47615554]
+e_t:0, mean_error = 0.032846715328467155
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.82939457e+12], q: [1.47615554]
+e_t:0, mean_error = 0.03272727272727273
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.82939457e+12], q: [1.47615554]
+e_t:0, mean_error = 0.03260869565217391
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.82939457e+12], q: [1.47615554]
+e_t:0, mean_error = 0.032490974729241874
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.82939457e+12], q: [1.47615554]
+e_t:0, mean_error = 0.03237410071942446
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.82939457e+12], q: [1.47615554]
+e_t:0, mean_error = 0.03225806451612903
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.82939457e+12], q: [1.47615554]
+e_t:0, mean_error = 0.03214285714285714
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.03214285714285714
+Updated Q : [1.17085272e+13], q: [1.41722697]
+e_t:0, mean_error = 0.03202846975088968
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.17085272e+13], q: [1.41722697]
+e_t:0, mean_error = 0.031914893617021274
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.17085272e+13], q: [1.41722697]
+e_t:0, mean_error = 0.03180212014134275
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.17085272e+13], q: [1.41722697]
+e_t:0, mean_error = 0.03169014084507042
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.17085272e+13], q: [1.41722697]
+e_t:0, mean_error = 0.031578947368421054
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.17085272e+13], q: [1.41722697]
+e_t:0, mean_error = 0.03146853146853147
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.17085272e+13], q: [1.41722697]
+e_t:0, mean_error = 0.0313588850174216
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.17085272e+13], q: [1.41722697]
+e_t:0, mean_error = 0.03125
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.17085272e+13], q: [1.41722697]
+e_t:0, mean_error = 0.031141868512110725
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.17085272e+13], q: [1.41722697]
+e_t:0, mean_error = 0.03103448275862069
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.03103448275862069
+Updated Q : [2.15843108e+13], q: [1.35774421]
+e_t:0, mean_error = 0.030927835051546393
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.15843108e+13], q: [1.35774421]
+e_t:0, mean_error = 0.030821917808219176
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.15843108e+13], q: [1.35774421]
+e_t:0, mean_error = 0.030716723549488054
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.15843108e+13], q: [1.35774421]
+e_t:0, mean_error = 0.030612244897959183
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.15843108e+13], q: [1.35774421]
+e_t:0, mean_error = 0.030508474576271188
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.15843108e+13], q: [1.35774421]
+e_t:0, mean_error = 0.030405405405405407
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.15843108e+13], q: [1.35774421]
+e_t:0, mean_error = 0.030303030303030304
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.15843108e+13], q: [1.35774421]
+e_t:0, mean_error = 0.030201342281879196
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.15843108e+13], q: [1.35774421]
+e_t:0, mean_error = 0.030100334448160536
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.15843108e+13], q: [1.35774421]
+e_t:0, mean_error = 0.03
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.03
+Updated Q : [3.63510018e+13], q: [1.29774421]
+e_t:0, mean_error = 0.029900332225913623
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.63510018e+13], q: [1.29774421]
+e_t:0, mean_error = 0.029801324503311258
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.63510018e+13], q: [1.29774421]
+e_t:0, mean_error = 0.0297029702970297
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.63510018e+13], q: [1.29774421]
+e_t:0, mean_error = 0.029605263157894735
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.63510018e+13], q: [1.29774421]
+e_t:0, mean_error = 0.029508196721311476
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.63510018e+13], q: [1.29774421]
+e_t:0, mean_error = 0.029411764705882353
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.63510018e+13], q: [1.29774421]
+e_t:0, mean_error = 0.029315960912052116
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.63510018e+13], q: [1.29774421]
+e_t:0, mean_error = 0.02922077922077922
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.63510018e+13], q: [1.29774421]
+e_t:0, mean_error = 0.02912621359223301
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.63510018e+13], q: [1.29774421]
+e_t:0, mean_error = 0.02903225806451613
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.02903225806451613
+Updated Q : [5.56465914e+13], q: [1.23726034]
+e_t:0, mean_error = 0.028938906752411574
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.56465914e+13], q: [1.23726034]
+e_t:0, mean_error = 0.028846153846153848
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.56465914e+13], q: [1.23726034]
+e_t:0, mean_error = 0.02875399361022364
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.56465914e+13], q: [1.23726034]
+e_t:0, mean_error = 0.028662420382165606
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.56465914e+13], q: [1.23726034]
+e_t:0, mean_error = 0.02857142857142857
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.56465914e+13], q: [1.23726034]
+e_t:0, mean_error = 0.028481012658227847
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.56465914e+13], q: [1.23726034]
+e_t:0, mean_error = 0.028391167192429023
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.56465914e+13], q: [1.23726034]
+e_t:0, mean_error = 0.02830188679245283
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.56465914e+13], q: [1.23726034]
+e_t:0, mean_error = 0.02821316614420063
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [5.56465914e+13], q: [1.23726034]
+e_t:0, mean_error = 0.028125
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.028125
+Updated Q : [7.70001595e+13], q: [1.17632284]
+e_t:0, mean_error = 0.028037383177570093
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [7.70001595e+13], q: [1.17632284]
+e_t:0, mean_error = 0.027950310559006212
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [7.70001595e+13], q: [1.17632284]
+e_t:0, mean_error = 0.02786377708978328
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [7.70001595e+13], q: [1.17632284]
+e_t:0, mean_error = 0.027777777777777776
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [7.70001595e+13], q: [1.17632284]
+e_t:0, mean_error = 0.027692307692307693
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [7.70001595e+13], q: [1.17632284]
+e_t:0, mean_error = 0.027607361963190184
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [7.70001595e+13], q: [1.17632284]
+e_t:0, mean_error = 0.027522935779816515
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [7.70001595e+13], q: [1.17632284]
+e_t:0, mean_error = 0.027439024390243903
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [7.70001595e+13], q: [1.17632284]
+e_t:0, mean_error = 0.02735562310030395
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [7.70001595e+13], q: [1.17632284]
+e_t:0, mean_error = 0.02727272727272727
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.02727272727272727
+Updated Q : [9.57215179e+13], q: [1.1149592]
+e_t:0, mean_error = 0.027190332326283987
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [9.57215179e+13], q: [1.1149592]
+e_t:0, mean_error = 0.02710843373493976
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [9.57215179e+13], q: [1.1149592]
+e_t:0, mean_error = 0.02702702702702703
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [9.57215179e+13], q: [1.1149592]
+e_t:0, mean_error = 0.02694610778443114
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [9.57215179e+13], q: [1.1149592]
+e_t:0, mean_error = 0.026865671641791045
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [9.57215179e+13], q: [1.1149592]
+e_t:0, mean_error = 0.026785714285714284
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [9.57215179e+13], q: [1.1149592]
+e_t:0, mean_error = 0.026706231454005934
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [9.57215179e+13], q: [1.1149592]
+e_t:0, mean_error = 0.026627218934911243
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [9.57215179e+13], q: [1.1149592]
+e_t:0, mean_error = 0.02654867256637168
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [9.57215179e+13], q: [1.1149592]
+e_t:0, mean_error = 0.026470588235294117
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.026470588235294117
+Updated Q : [1.06176092e+14], q: [1.0531945]
+e_t:0, mean_error = 0.026392961876832845
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.06176092e+14], q: [1.0531945]
+e_t:0, mean_error = 0.02631578947368421
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.06176092e+14], q: [1.0531945]
+e_t:0, mean_error = 0.026239067055393587
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.06176092e+14], q: [1.0531945]
+e_t:0, mean_error = 0.02616279069767442
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.06176092e+14], q: [1.0531945]
+e_t:0, mean_error = 0.02608695652173913
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.06176092e+14], q: [1.0531945]
+e_t:0, mean_error = 0.02601156069364162
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.06176092e+14], q: [1.0531945]
+e_t:0, mean_error = 0.025936599423631124
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.06176092e+14], q: [1.0531945]
+e_t:0, mean_error = 0.02586206896551724
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.06176092e+14], q: [1.0531945]
+e_t:0, mean_error = 0.025787965616045846
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.06176092e+14], q: [1.0531945]
+e_t:0, mean_error = 0.025714285714285714
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.025714285714285714
+Updated Q : [1.0428439e+14], q: [0.99105164]
+e_t:0, mean_error = 0.02564102564102564
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.0428439e+14], q: [0.99105164]
+e_t:0, mean_error = 0.02556818181818182
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.0428439e+14], q: [0.99105164]
+e_t:0, mean_error = 0.025495750708215296
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.0428439e+14], q: [0.99105164]
+e_t:0, mean_error = 0.025423728813559324
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.0428439e+14], q: [0.99105164]
+e_t:0, mean_error = 0.02535211267605634
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.0428439e+14], q: [0.99105164]
+e_t:0, mean_error = 0.025280898876404494
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.0428439e+14], q: [0.99105164]
+e_t:0, mean_error = 0.025210084033613446
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.0428439e+14], q: [0.99105164]
+e_t:0, mean_error = 0.025139664804469275
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.0428439e+14], q: [0.99105164]
+e_t:0, mean_error = 0.025069637883008356
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.0428439e+14], q: [0.99105164]
+e_t:0, mean_error = 0.025
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.025
+Updated Q : [8.99148507e+13], q: [0.92855164]
+e_t:0, mean_error = 0.024930747922437674
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [8.99148507e+13], q: [0.92855164]
+e_t:0, mean_error = 0.024861878453038673
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [8.99148507e+13], q: [0.92855164]
+e_t:0, mean_error = 0.024793388429752067
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [8.99148507e+13], q: [0.92855164]
+e_t:0, mean_error = 0.024725274725274724
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [8.99148507e+13], q: [0.92855164]
+e_t:0, mean_error = 0.024657534246575342
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [8.99148507e+13], q: [0.92855164]
+e_t:0, mean_error = 0.02459016393442623
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [8.99148507e+13], q: [0.92855164]
+e_t:0, mean_error = 0.02452316076294278
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [8.99148507e+13], q: [0.92855164]
+e_t:0, mean_error = 0.024456521739130436
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [8.99148507e+13], q: [0.92855164]
+e_t:0, mean_error = 0.024390243902439025
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [8.99148507e+13], q: [0.92855164]
+e_t:0, mean_error = 0.024324324324324326
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.024324324324324326
+Updated Q : [6.73876186e+13], q: [0.8657138]
+e_t:0, mean_error = 0.02425876010781671
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [6.73876186e+13], q: [0.8657138]
+e_t:0, mean_error = 0.024193548387096774
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [6.73876186e+13], q: [0.8657138]
+e_t:0, mean_error = 0.024128686327077747
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [6.73876186e+13], q: [0.8657138]
+e_t:0, mean_error = 0.02406417112299465
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [6.73876186e+13], q: [0.8657138]
+e_t:0, mean_error = 0.024
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [6.73876186e+13], q: [0.8657138]
+e_t:0, mean_error = 0.023936170212765957
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [6.73876186e+13], q: [0.8657138]
+e_t:0, mean_error = 0.023872679045092837
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [6.73876186e+13], q: [0.8657138]
+e_t:0, mean_error = 0.023809523809523808
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [6.73876186e+13], q: [0.8657138]
+e_t:0, mean_error = 0.023746701846965697
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [6.73876186e+13], q: [0.8657138]
+e_t:0, mean_error = 0.02368421052631579
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.02368421052631579
+Updated Q : [4.34040944e+13], q: [0.80255591]
+e_t:0, mean_error = 0.023622047244094488
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.34040944e+13], q: [0.80255591]
+e_t:0, mean_error = 0.02356020942408377
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.34040944e+13], q: [0.80255591]
+e_t:0, mean_error = 0.02349869451697128
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.34040944e+13], q: [0.80255591]
+e_t:0, mean_error = 0.0234375
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.34040944e+13], q: [0.80255591]
+e_t:0, mean_error = 0.023376623376623377
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.34040944e+13], q: [0.80255591]
+e_t:0, mean_error = 0.023316062176165803
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.34040944e+13], q: [0.80255591]
+e_t:0, mean_error = 0.023255813953488372
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.34040944e+13], q: [0.80255591]
+e_t:0, mean_error = 0.023195876288659795
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.34040944e+13], q: [0.80255591]
+e_t:0, mean_error = 0.02313624678663239
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4.34040944e+13], q: [0.80255591]
+e_t:0, mean_error = 0.023076923076923078
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.023076923076923078
+Updated Q : [2.37099416e+13], q: [0.73909437]
+e_t:0, mean_error = 0.023017902813299233
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.37099416e+13], q: [0.73909437]
+e_t:0, mean_error = 0.02295918367346939
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.37099416e+13], q: [0.73909437]
+e_t:0, mean_error = 0.022900763358778626
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.37099416e+13], q: [0.73909437]
+e_t:0, mean_error = 0.02284263959390863
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.37099416e+13], q: [0.73909437]
+e_t:0, mean_error = 0.02278481012658228
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.37099416e+13], q: [0.73909437]
+e_t:0, mean_error = 0.022727272727272728
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.37099416e+13], q: [0.73909437]
+e_t:0, mean_error = 0.022670025188916875
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.37099416e+13], q: [0.73909437]
+e_t:0, mean_error = 0.022613065326633167
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.37099416e+13], q: [0.73909437]
+e_t:0, mean_error = 0.022556390977443608
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.37099416e+13], q: [0.73909437]
+e_t:0, mean_error = 0.0225
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.0225
+Updated Q : [1.08138676e+13], q: [0.67534437]
+e_t:0, mean_error = 0.022443890274314215
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.08138676e+13], q: [0.67534437]
+e_t:0, mean_error = 0.022388059701492536
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.08138676e+13], q: [0.67534437]
+e_t:0, mean_error = 0.022332506203473945
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.08138676e+13], q: [0.67534437]
+e_t:0, mean_error = 0.022277227722772276
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.08138676e+13], q: [0.67534437]
+e_t:0, mean_error = 0.022222222222222223
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.08138676e+13], q: [0.67534437]
+e_t:0, mean_error = 0.022167487684729065
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.08138676e+13], q: [0.67534437]
+e_t:0, mean_error = 0.022113022113022112
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.08138676e+13], q: [0.67534437]
+e_t:0, mean_error = 0.022058823529411766
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.08138676e+13], q: [0.67534437]
+e_t:0, mean_error = 0.022004889975550123
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.08138676e+13], q: [0.67534437]
+e_t:0, mean_error = 0.02195121951219512
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.0125
+Updated Q : [3.97903533e+12], q: [0.60659437]
+e_t:0, mean_error = 0.021897810218978103
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.97903533e+12], q: [0.60659437]
+e_t:0, mean_error = 0.021844660194174758
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.97903533e+12], q: [0.60659437]
+e_t:0, mean_error = 0.021791767554479417
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.97903533e+12], q: [0.60659437]
+e_t:0, mean_error = 0.021739130434782608
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.97903533e+12], q: [0.60659437]
+e_t:0, mean_error = 0.021686746987951807
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.97903533e+12], q: [0.60659437]
+e_t:0, mean_error = 0.021634615384615384
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.97903533e+12], q: [0.60659437]
+e_t:0, mean_error = 0.02158273381294964
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.97903533e+12], q: [0.60659437]
+e_t:0, mean_error = 0.0215311004784689
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.97903533e+12], q: [0.60659437]
+e_t:0, mean_error = 0.021479713603818614
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.97903533e+12], q: [0.60659437]
+e_t:0, mean_error = 0.02142857142857143
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.0
+Updated Q : [1.12444583e+12], q: [0.53159437]
+e_t:0, mean_error = 0.021377672209026127
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.12444583e+12], q: [0.53159437]
+e_t:0, mean_error = 0.02132701421800948
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.12444583e+12], q: [0.53159437]
+e_t:0, mean_error = 0.02127659574468085
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.12444583e+12], q: [0.53159437]
+e_t:0, mean_error = 0.02122641509433962
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.12444583e+12], q: [0.53159437]
+e_t:0, mean_error = 0.021176470588235293
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.12444583e+12], q: [0.53159437]
+e_t:0, mean_error = 0.02112676056338028
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.12444583e+12], q: [0.53159437]
+e_t:0, mean_error = 0.02107728337236534
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.12444583e+12], q: [0.53159437]
+e_t:0, mean_error = 0.02102803738317757
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.12444583e+12], q: [0.53159437]
+e_t:0, mean_error = 0.02097902097902098
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.12444583e+12], q: [0.53159437]
+e_t:0, mean_error = 0.020930232558139535
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.0
+Updated Q : [2.34422685e+11], q: [0.45659437]
+e_t:0, mean_error = 0.02088167053364269
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.34422685e+11], q: [0.45659437]
+e_t:0, mean_error = 0.020833333333333332
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.34422685e+11], q: [0.45659437]
+e_t:0, mean_error = 0.020785219399538105
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.34422685e+11], q: [0.45659437]
+e_t:0, mean_error = 0.020737327188940093
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.34422685e+11], q: [0.45659437]
+e_t:0, mean_error = 0.020689655172413793
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.34422685e+11], q: [0.45659437]
+e_t:0, mean_error = 0.020642201834862386
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.34422685e+11], q: [0.45659437]
+e_t:0, mean_error = 0.020594965675057208
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.34422685e+11], q: [0.45659437]
+e_t:0, mean_error = 0.02054794520547945
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.34422685e+11], q: [0.45659437]
+e_t:0, mean_error = 0.02050113895216401
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [2.34422685e+11], q: [0.45659437]
+e_t:0, mean_error = 0.020454545454545454
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.0
+Updated Q : [3.41352862e+10], q: [0.38159437]
+e_t:0, mean_error = 0.02040816326530612
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.41352862e+10], q: [0.38159437]
+e_t:0, mean_error = 0.020361990950226245
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.41352862e+10], q: [0.38159437]
+e_t:0, mean_error = 0.020316027088036117
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.41352862e+10], q: [0.38159437]
+e_t:0, mean_error = 0.02027027027027027
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.41352862e+10], q: [0.38159437]
+e_t:0, mean_error = 0.020224719101123594
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.41352862e+10], q: [0.38159437]
+e_t:0, mean_error = 0.020179372197309416
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.41352862e+10], q: [0.38159437]
+e_t:0, mean_error = 0.020134228187919462
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.41352862e+10], q: [0.38159437]
+e_t:0, mean_error = 0.020089285714285716
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.41352862e+10], q: [0.38159437]
+e_t:0, mean_error = 0.0200445434298441
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.41352862e+10], q: [0.38159437]
+e_t:0, mean_error = 0.02
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.0
+Updated Q : [3.20872053e+09], q: [0.30659437]
+e_t:0, mean_error = 0.019955654101995565
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.20872053e+09], q: [0.30659437]
+e_t:0, mean_error = 0.01991150442477876
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.20872053e+09], q: [0.30659437]
+e_t:0, mean_error = 0.019867549668874173
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.20872053e+09], q: [0.30659437]
+e_t:0, mean_error = 0.019823788546255508
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.20872053e+09], q: [0.30659437]
+e_t:0, mean_error = 0.01978021978021978
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.20872053e+09], q: [0.30659437]
+e_t:0, mean_error = 0.019736842105263157
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.20872053e+09], q: [0.30659437]
+e_t:0, mean_error = 0.019693654266958426
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.20872053e+09], q: [0.30659437]
+e_t:0, mean_error = 0.019650655021834062
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.20872053e+09], q: [0.30659437]
+e_t:0, mean_error = 0.0196078431372549
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [3.20872053e+09], q: [0.30659437]
+e_t:0, mean_error = 0.01956521739130435
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.0
+Updated Q : [1.72102777e+08], q: [0.23159437]
+e_t:0, mean_error = 0.019522776572668113
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.72102777e+08], q: [0.23159437]
+e_t:0, mean_error = 0.01948051948051948
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.72102777e+08], q: [0.23159437]
+e_t:0, mean_error = 0.019438444924406047
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.72102777e+08], q: [0.23159437]
+e_t:0, mean_error = 0.01939655172413793
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.72102777e+08], q: [0.23159437]
+e_t:0, mean_error = 0.01935483870967742
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.72102777e+08], q: [0.23159437]
+e_t:0, mean_error = 0.019313304721030045
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.72102777e+08], q: [0.23159437]
+e_t:0, mean_error = 0.019271948608137045
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.72102777e+08], q: [0.23159437]
+e_t:0, mean_error = 0.019230769230769232
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.72102777e+08], q: [0.23159437]
+e_t:0, mean_error = 0.019189765458422176
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.72102777e+08], q: [0.23159437]
+e_t:0, mean_error = 0.019148936170212766
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.0
+Updated Q : [4220269.18004222], q: [0.15659437]
+e_t:0, mean_error = 0.01910828025477707
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4220269.18004222], q: [0.15659437]
+e_t:0, mean_error = 0.019067796610169493
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4220269.18004222], q: [0.15659437]
+e_t:0, mean_error = 0.019027484143763214
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4220269.18004222], q: [0.15659437]
+e_t:0, mean_error = 0.0189873417721519
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4220269.18004222], q: [0.15659437]
+e_t:0, mean_error = 0.018947368421052633
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4220269.18004222], q: [0.15659437]
+e_t:0, mean_error = 0.018907563025210083
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4220269.18004222], q: [0.15659437]
+e_t:0, mean_error = 0.018867924528301886
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4220269.18004222], q: [0.15659437]
+e_t:0, mean_error = 0.01882845188284519
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4220269.18004222], q: [0.15659437]
+e_t:0, mean_error = 0.018789144050104383
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [4220269.18004222], q: [0.15659437]
+e_t:0, mean_error = 0.01875
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.0
+Updated Q : [28097.03632735], q: [0.08159437]
+e_t:0, mean_error = 0.018711018711018712
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [28097.03632735], q: [0.08159437]
+e_t:0, mean_error = 0.01867219917012448
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [28097.03632735], q: [0.08159437]
+e_t:0, mean_error = 0.018633540372670808
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [28097.03632735], q: [0.08159437]
+e_t:0, mean_error = 0.01859504132231405
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [28097.03632735], q: [0.08159437]
+e_t:0, mean_error = 0.018556701030927835
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [28097.03632735], q: [0.08159437]
+e_t:0, mean_error = 0.018518518518518517
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [28097.03632735], q: [0.08159437]
+e_t:0, mean_error = 0.018480492813141684
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [28097.03632735], q: [0.08159437]
+e_t:0, mean_error = 0.018442622950819672
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [28097.03632735], q: [0.08159437]
+e_t:0, mean_error = 0.018404907975460124
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [28097.03632735], q: [0.08159437]
+e_t:0, mean_error = 0.018367346938775512
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.0
+Updated Q : [1.22181882], q: [0.00659437]
+e_t:1, mean_error = 0.020366598778004074
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.22181882], q: [0.00659437]
+e_t:0, mean_error = 0.02032520325203252
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.22181882], q: [0.00659437]
+e_t:1, mean_error = 0.02231237322515213
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.22181882], q: [0.00659437]
+e_t:1, mean_error = 0.024291497975708502
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.22181882], q: [0.00659437]
+e_t:1, mean_error = 0.026262626262626262
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.22181882], q: [0.00659437]
+e_t:1, mean_error = 0.028225806451612902
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.22181882], q: [0.00659437]
+e_t:1, mean_error = 0.030181086519114688
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.22181882], q: [0.00659437]
+e_t:1, mean_error = 0.0321285140562249
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.22181882], q: [0.00659437]
+e_t:1, mean_error = 0.03406813627254509
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+Updated Q : [1.22181882], q: [0.00659437]
+e_t:1, mean_error = 0.036
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.562534336997663
+mean: 0.0225
+Updated Q : [1.22181882e-08], q: [0.0001]
+e_t:1, mean_error = 0.03792415169660679
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1014.85795662718
+Updated Q : [1.22181882e-08], q: [0.0001]
+e_t:1, mean_error = 0.0398406374501992
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1014.85795662718
+Updated Q : [1.22181882e-08], q: [0.0001]
+e_t:0, mean_error = 0.039761431411530816
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1014.85795662718
+Updated Q : [1.22181882e-08], q: [0.0001]
+e_t:1, mean_error = 0.041666666666666664
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1014.85795662718
+Updated Q : [1.22181882e-08], q: [0.0001]
+e_t:1, mean_error = 0.04356435643564356
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1014.85795662718
+Updated Q : [1.22181882e-08], q: [0.0001]
+e_t:1, mean_error = 0.045454545454545456
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1014.85795662718
+Updated Q : [1.22181882e-08], q: [0.0001]
+e_t:1, mean_error = 0.047337278106508875
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1014.85795662718
+Updated Q : [1.22181882e-08], q: [0.0001]
+e_t:1, mean_error = 0.04921259842519685
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1014.85795662718
+Updated Q : [1.22181882e-08], q: [0.0001]
+e_t:1, mean_error = 0.05108055009823183
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1014.85795662718
+Updated Q : [1.22181882e-08], q: [0.0001]
+e_t:1, mean_error = 0.052941176470588235
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1014.85795662718
+mean: 0.045
+Updated Q : [1.22181882e-16], q: [0.0001]
+e_t:1, mean_error = 0.0547945205479452
+Computed eta: 0.5, eta_max: 0.5
+Max score: 9129014.929827737
+Updated Q : [1.22181882e-16], q: [0.0001]
+e_t:1, mean_error = 0.056640625
+Computed eta: 0.5, eta_max: 0.5
+Max score: 9129014.929827737
+Updated Q : [1.22181882e-16], q: [0.0001]
+e_t:1, mean_error = 0.05847953216374269
+Computed eta: 0.5, eta_max: 0.5
+Max score: 9129014.929827737
+Updated Q : [1.22181882e-16], q: [0.0001]
+e_t:1, mean_error = 0.06031128404669261
+Computed eta: 0.5, eta_max: 0.5
+Max score: 9129014.929827737
+Updated Q : [1.22181882e-16], q: [0.0001]
+e_t:1, mean_error = 0.062135922330097085
+Computed eta: 0.5, eta_max: 0.5
+Max score: 9129014.929827737
+Updated Q : [1.22181882e-16], q: [0.0001]
+e_t:1, mean_error = 0.06395348837209303
+Computed eta: 0.5, eta_max: 0.5
+Max score: 9129014.929827737
+Updated Q : [1.22181882e-16], q: [0.0001]
+e_t:0, mean_error = 0.06382978723404255
+Computed eta: 0.5, eta_max: 0.5
+Max score: 9129014.929827737
+Updated Q : [1.22181882e-16], q: [0.0001]
+e_t:0, mean_error = 0.0637065637065637
+Computed eta: 0.5, eta_max: 0.5
+Max score: 9129014.929827737
+Updated Q : [1.22181882e-16], q: [0.0001]
+e_t:0, mean_error = 0.06358381502890173
+Computed eta: 0.5, eta_max: 0.5
+Max score: 9129014.929827737
+Updated Q : [1.22181882e-16], q: [0.0001]
+e_t:1, mean_error = 0.06538461538461539
+Computed eta: 0.5, eta_max: 0.5
+Max score: 9129014.929827737
+mean: 0.0625
+Updated Q : [1.22181882e-24], q: [0.0001]
+e_t:1, mean_error = 0.0671785028790787
+Computed eta: 0.5, eta_max: 0.5
+Max score: 39758740504.07215
+Updated Q : [1.22181882e-24], q: [0.0001]
+e_t:1, mean_error = 0.06896551724137931
+Computed eta: 0.5, eta_max: 0.5
+Max score: 39758740504.07215
+Updated Q : [1.22181882e-24], q: [0.0001]
+e_t:1, mean_error = 0.07074569789674952
+Computed eta: 0.5, eta_max: 0.5
+Max score: 44335550065.57658
+Updated Q : [1.22181882e-24], q: [0.0001]
+e_t:1, mean_error = 0.07251908396946564
+Computed eta: 0.5, eta_max: 0.5
+Max score: 53171660595.513855
+Updated Q : [1.22181882e-24], q: [0.0001]
+e_t:1, mean_error = 0.07428571428571429
+Computed eta: 0.5, eta_max: 0.5
+Max score: 70323129946.9582
+Updated Q : [1.22181882e-24], q: [0.0001]
+e_t:0, mean_error = 0.0741444866920152
+Computed eta: 0.5, eta_max: 0.5
+Max score: 70323129946.9582
+Updated Q : [1.22181882e-24], q: [0.0001]
+e_t:1, mean_error = 0.07590132827324478
+Computed eta: 0.5, eta_max: 0.5
+Max score: 70323129946.9582
+Updated Q : [1.22181882e-24], q: [0.0001]
+e_t:1, mean_error = 0.07765151515151515
+Computed eta: 0.5, eta_max: 0.5
+Max score: 70323129946.9582
+Updated Q : [1.22181882e-24], q: [0.0001]
+e_t:1, mean_error = 0.07939508506616257
+Computed eta: 0.5, eta_max: 0.5
+Max score: 70323129946.9582
+Updated Q : [1.22181882e-24], q: [0.0001]
+e_t:1, mean_error = 0.08113207547169811
+Computed eta: 0.5, eta_max: 0.5
+Max score: 70323129946.9582
+mean: 0.085
+Updated Q : [1.22181882e-32], q: [0.0001]
+e_t:1, mean_error = 0.08286252354048965
+Computed eta: 0.5, eta_max: 0.5
+Max score: 327063507908234.1
+Updated Q : [1.22181882e-32], q: [0.0001]
+e_t:1, mean_error = 0.08458646616541353
+Computed eta: 0.5, eta_max: 0.5
+Max score: 464247378326925.75
+Updated Q : [1.22181882e-32], q: [0.0001]
+e_t:1, mean_error = 0.08630393996247655
+Computed eta: 0.5, eta_max: 0.5
+Max score: 464247378326925.75
+Updated Q : [1.22181882e-32], q: [0.0001]
+e_t:1, mean_error = 0.08801498127340825
+Computed eta: 0.5, eta_max: 0.5
+Max score: 464247378326925.75
+Updated Q : [1.22181882e-32], q: [0.0001]
+e_t:1, mean_error = 0.08971962616822429
+Computed eta: 0.5, eta_max: 0.5
+Max score: 464247378326925.75
+Updated Q : [1.22181882e-32], q: [0.0001]
+e_t:1, mean_error = 0.0914179104477612
+Computed eta: 0.5, eta_max: 0.5
+Max score: 576259888590109.0
+Updated Q : [1.22181882e-32], q: [0.0001]
+e_t:1, mean_error = 0.0931098696461825
+Computed eta: 0.5, eta_max: 0.5
+Max score: 576259888590109.0
+Updated Q : [1.22181882e-32], q: [0.0001]
+e_t:1, mean_error = 0.09479553903345725
+Computed eta: 0.5, eta_max: 0.5
+Max score: 576259888590109.0
+Updated Q : [1.22181882e-32], q: [0.0001]
+e_t:1, mean_error = 0.09647495361781076
+Computed eta: 0.5, eta_max: 0.5
+Max score: 990924665144527.8
+Updated Q : [1.22181882e-32], q: [0.0001]
+e_t:1, mean_error = 0.09814814814814815
+Computed eta: 0.5, eta_max: 0.5
+Max score: 990924665144527.8
+mean: 0.11
+Updated Q : [1.22181882e-40], q: [0.0001]
+e_t:1, mean_error = 0.09981515711645102
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.6437792369140966e+18
+Updated Q : [1.22181882e-40], q: [0.0001]
+e_t:1, mean_error = 0.1014760147601476
+Computed eta: 0.5, eta_max: 0.5
+Max score: 6.89046795066272e+18
+Updated Q : [1.22181882e-40], q: [0.0001]
+e_t:1, mean_error = 0.10313075506445672
+Computed eta: 0.5, eta_max: 0.5
+Max score: 6.89046795066272e+18
+Updated Q : [1.22181882e-40], q: [0.0001]
+e_t:0, mean_error = 0.10294117647058823
+Computed eta: 0.5, eta_max: 0.5
+Max score: 6.89046795066272e+18
+Updated Q : [1.22181882e-40], q: [0.0001]
+e_t:1, mean_error = 0.10458715596330276
+Computed eta: 0.5, eta_max: 0.5
+Max score: 6.89046795066272e+18
+Updated Q : [1.22181882e-40], q: [0.0001]
+e_t:1, mean_error = 0.10622710622710622
+Computed eta: 0.5, eta_max: 0.5
+Max score: 6.89046795066272e+18
+Updated Q : [1.22181882e-40], q: [0.0001]
+e_t:1, mean_error = 0.10786106032906764
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.006217527851094e+19
+Updated Q : [1.22181882e-40], q: [0.0001]
+e_t:1, mean_error = 0.10948905109489052
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.0197765177406351e+19
+Updated Q : [1.22181882e-40], q: [0.0001]
+e_t:1, mean_error = 0.1111111111111111
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.0197765177406351e+19
+Updated Q : [1.22181882e-40], q: [0.0001]
+e_t:1, mean_error = 0.11272727272727273
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.0197765177406351e+19
+mean: 0.1325
+Updated Q : [1.22181882e-48], q: [0.0001]
+e_t:1, mean_error = 0.11433756805807622
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.4473873803982995e+22
+Updated Q : [1.22181882e-48], q: [0.0001]
+e_t:1, mean_error = 0.11594202898550725
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.539931960860326e+22
+Updated Q : [1.22181882e-48], q: [0.0001]
+e_t:1, mean_error = 0.11754068716094032
+Computed eta: 0.5, eta_max: 0.5
+Max score: 2.9898749612208125e+22
+Updated Q : [1.22181882e-48], q: [0.0001]
+e_t:1, mean_error = 0.11913357400722022
+Computed eta: 0.5, eta_max: 0.5
+Max score: 2.9898749612208125e+22
+Updated Q : [1.22181882e-48], q: [0.0001]
+e_t:1, mean_error = 0.12072072072072072
+Computed eta: 0.5, eta_max: 0.5
+Max score: 2.9898749612208125e+22
+Updated Q : [1.22181882e-48], q: [0.0001]
+e_t:1, mean_error = 0.1223021582733813
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.816481770322388e+22
+Updated Q : [1.22181882e-48], q: [0.0001]
+e_t:0, mean_error = 0.12208258527827648
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.816481770322388e+22
+Updated Q : [1.22181882e-48], q: [0.0001]
+e_t:1, mean_error = 0.12365591397849462
+Computed eta: 0.5, eta_max: 0.5
+Max score: 5.5871273881972075e+22
+Updated Q : [1.22181882e-48], q: [0.0001]
+e_t:1, mean_error = 0.1252236135957066
+Computed eta: 0.5, eta_max: 0.5
+Max score: 5.5871273881972075e+22
+Updated Q : [1.22181882e-48], q: [0.0001]
+e_t:0, mean_error = 0.125
+Computed eta: 0.5, eta_max: 0.5
+Max score: 5.5871273881972075e+22
+mean: 0.1525
+Updated Q : [2.22676479e-54], q: [0.00135]
+e_t:1, mean_error = 0.1265597147950089
+Computed eta: 0.5, eta_max: 0.5
+Max score: 4.4201226946838045e+24
+Updated Q : [2.22676479e-54], q: [0.00135]
+e_t:1, mean_error = 0.12811387900355872
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.8626633871184163e+25
+Updated Q : [2.22676479e-54], q: [0.00135]
+e_t:1, mean_error = 0.12966252220248667
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.8626633871184163e+25
+Updated Q : [2.22676479e-54], q: [0.00135]
+e_t:1, mean_error = 0.13120567375886524
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.8626633871184163e+25
+Updated Q : [2.22676479e-54], q: [0.00135]
+e_t:1, mean_error = 0.13274336283185842
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.9897318209913825e+25
+Updated Q : [2.22676479e-54], q: [0.00135]
+e_t:0, mean_error = 0.13250883392226148
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.9897318209913825e+25
+Updated Q : [2.22676479e-54], q: [0.00135]
+e_t:1, mean_error = 0.13403880070546736
+Computed eta: 0.5, eta_max: 0.5
+Max score: 2.509389823653499e+25
+Updated Q : [2.22676479e-54], q: [0.00135]
+e_t:1, mean_error = 0.13556338028169015
+Computed eta: 0.5, eta_max: 0.5
+Max score: 2.509389823653499e+25
+Updated Q : [2.22676479e-54], q: [0.00135]
+e_t:1, mean_error = 0.13708260105448156
+Computed eta: 0.5, eta_max: 0.5
+Max score: 2.509389823653499e+25
+Updated Q : [2.22676479e-54], q: [0.00135]
+e_t:1, mean_error = 0.13859649122807016
+Computed eta: 0.5, eta_max: 0.5
+Max score: 2.509389823653499e+25
+mean: 0.175
+Updated Q : [4.27143589e-58], q: [0.01385]
+e_t:0, mean_error = 0.138353765323993
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.850845658191823e+25
+Updated Q : [4.27143589e-58], q: [0.01385]
+e_t:0, mean_error = 0.1381118881118881
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.850845658191823e+25
+Updated Q : [4.27143589e-58], q: [0.01385]
+e_t:1, mean_error = 0.13961605584642234
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.577288796724572e+27
+Updated Q : [4.27143589e-58], q: [0.01385]
+e_t:1, mean_error = 0.14111498257839722
+Computed eta: 0.5, eta_max: 0.5
+Max score: 2.3441311435802896e+27
+Updated Q : [4.27143589e-58], q: [0.01385]
+e_t:1, mean_error = 0.1426086956521739
+Computed eta: 0.5, eta_max: 0.5
+Max score: 2.675097121227091e+27
+Updated Q : [4.27143589e-58], q: [0.01385]
+e_t:1, mean_error = 0.1440972222222222
+Computed eta: 0.5, eta_max: 0.5
+Max score: 2.675097121227091e+27
+Updated Q : [4.27143589e-58], q: [0.01385]
+e_t:1, mean_error = 0.14558058925476602
+Computed eta: 0.5, eta_max: 0.5
+Max score: 2.675097121227091e+27
+Updated Q : [4.27143589e-58], q: [0.01385]
+e_t:1, mean_error = 0.14705882352941177
+Computed eta: 0.5, eta_max: 0.5
+Max score: 2.675097121227091e+27
+Updated Q : [4.27143589e-58], q: [0.01385]
+e_t:1, mean_error = 0.14853195164075994
+Computed eta: 0.5, eta_max: 0.5
+Max score: 2.8646587815566936e+27
+Updated Q : [4.27143589e-58], q: [0.01385]
+e_t:1, mean_error = 0.15
+Computed eta: 0.5, eta_max: 0.5
+Max score: 2.8646587815566936e+27
+mean: 0.195
+Updated Q : [5.64394435e-61], q: [0.03635]
+e_t:1, mean_error = 0.1514629948364888
+Computed eta: 0.5, eta_max: 0.5
+Max score: 9.05879383331984e+28
+Updated Q : [5.64394435e-61], q: [0.03635]
+e_t:1, mean_error = 0.15292096219931273
+Computed eta: 0.5, eta_max: 0.5
+Max score: 9.05879383331984e+28
+Updated Q : [5.64394435e-61], q: [0.03635]
+e_t:1, mean_error = 0.15437392795883362
+Computed eta: 0.5, eta_max: 0.5
+Max score: 9.05879383331984e+28
+Updated Q : [5.64394435e-61], q: [0.03635]
+e_t:1, mean_error = 0.1558219178082192
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.1574924896506526e+29
+Updated Q : [5.64394435e-61], q: [0.03635]
+e_t:1, mean_error = 0.15726495726495726
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.1574924896506526e+29
+Updated Q : [5.64394435e-61], q: [0.03635]
+e_t:1, mean_error = 0.15870307167235495
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.1574924896506526e+29
+Updated Q : [5.64394435e-61], q: [0.03635]
+e_t:1, mean_error = 0.16013628620102216
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.1574924896506526e+29
+Updated Q : [5.64394435e-61], q: [0.03635]
+e_t:1, mean_error = 0.16156462585034015
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.1574924896506526e+29
+Updated Q : [5.64394435e-61], q: [0.03635]
+e_t:1, mean_error = 0.16298811544991512
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.1574924896506526e+29
+Updated Q : [5.64394435e-61], q: [0.03635]
+e_t:1, mean_error = 0.16440677966101694
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.1574924896506526e+29
+mean: 0.22
+Updated Q : [2.87323189e-63], q: [0.07135]
+e_t:0, mean_error = 0.16412859560067683
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.1574924896506526e+29
+Updated Q : [2.87323189e-63], q: [0.07135]
+e_t:1, mean_error = 0.16554054054054054
+Computed eta: 0.5, eta_max: 0.5
+Max score: 4.6278251200904204e+29
+Updated Q : [2.87323189e-63], q: [0.07135]
+e_t:1, mean_error = 0.16694772344013492
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.90591587749906e+29
+Updated Q : [2.87323189e-63], q: [0.07135]
+e_t:1, mean_error = 0.16835016835016836
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.90591587749906e+29
+Updated Q : [2.87323189e-63], q: [0.07135]
+e_t:1, mean_error = 0.16974789915966387
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.0797138858835134e+30
+Updated Q : [2.87323189e-63], q: [0.07135]
+e_t:1, mean_error = 0.17114093959731544
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.0797138858835134e+30
+Updated Q : [2.87323189e-63], q: [0.07135]
+e_t:1, mean_error = 0.17252931323283083
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.0797138858835134e+30
+Updated Q : [2.87323189e-63], q: [0.07135]
+e_t:1, mean_error = 0.17391304347826086
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.0797138858835134e+30
+Updated Q : [2.87323189e-63], q: [0.07135]
+e_t:1, mean_error = 0.17529215358931552
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.5751731186320733e+30
+Updated Q : [2.87323189e-63], q: [0.07135]
+e_t:1, mean_error = 0.17666666666666667
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.5840567928331862e+30
+mean: 0.2425
+Updated Q : [3.97361074e-65], q: [0.1176]
+e_t:1, mean_error = 0.17803660565723795
+Computed eta: 0.5, eta_max: 0.5
+Max score: 2.050500300401764e+30
+Updated Q : [3.97361074e-65], q: [0.1176]
+e_t:1, mean_error = 0.17940199335548174
+Computed eta: 0.5, eta_max: 0.5
+Max score: 8.631189091752222e+30
+Updated Q : [3.97361074e-65], q: [0.1176]
+e_t:1, mean_error = 0.18076285240464346
+Computed eta: 0.5, eta_max: 0.5
+Max score: 8.631189091752222e+30
+Updated Q : [3.97361074e-65], q: [0.1176]
+e_t:1, mean_error = 0.18211920529801323
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.4156807825247073e+31
+Updated Q : [3.97361074e-65], q: [0.1176]
+e_t:1, mean_error = 0.1834710743801653
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.4156807825247073e+31
+Updated Q : [3.97361074e-65], q: [0.1176]
+e_t:0, mean_error = 0.18316831683168316
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.4156807825247073e+31
+Updated Q : [3.97361074e-65], q: [0.1176]
+e_t:1, mean_error = 0.18451400329489293
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.4156807825247073e+31
+Updated Q : [3.97361074e-65], q: [0.1176]
+e_t:1, mean_error = 0.18585526315789475
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.4156807825247073e+31
+Updated Q : [3.97361074e-65], q: [0.1176]
+e_t:1, mean_error = 0.18719211822660098
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.4156807825247073e+31
+Updated Q : [3.97361074e-65], q: [0.1176]
+e_t:1, mean_error = 0.1885245901639344
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.4156807825247073e+31
+mean: 0.265
+Updated Q : [1.21830945e-66], q: [0.1751]
+e_t:1, mean_error = 0.18985270049099837
+Computed eta: 0.5, eta_max: 0.5
+Max score: 2.361773004819445e+31
+Updated Q : [1.21830945e-66], q: [0.1751]
+e_t:1, mean_error = 0.19117647058823528
+Computed eta: 0.5, eta_max: 0.5
+Max score: 4.298480920537158e+31
+Updated Q : [1.21830945e-66], q: [0.1751]
+e_t:1, mean_error = 0.19249592169657423
+Computed eta: 0.5, eta_max: 0.5
+Max score: 4.298480920537158e+31
+Updated Q : [1.21830945e-66], q: [0.1751]
+e_t:1, mean_error = 0.19381107491856678
+Computed eta: 0.5, eta_max: 0.5
+Max score: 4.298480920537158e+31
+Updated Q : [1.21830945e-66], q: [0.1751]
+e_t:1, mean_error = 0.1951219512195122
+Computed eta: 0.5, eta_max: 0.5
+Max score: 5.093615568215261e+31
+Updated Q : [1.21830945e-66], q: [0.1751]
+e_t:1, mean_error = 0.19642857142857142
+Computed eta: 0.5, eta_max: 0.5
+Max score: 5.093615568215261e+31
+Updated Q : [1.21830945e-66], q: [0.1751]
+e_t:1, mean_error = 0.19773095623987033
+Computed eta: 0.5, eta_max: 0.5
+Max score: 5.61122749202786e+31
+Updated Q : [1.21830945e-66], q: [0.1751]
+e_t:1, mean_error = 0.19902912621359223
+Computed eta: 0.5, eta_max: 0.5
+Max score: 5.61122749202786e+31
+Updated Q : [1.21830945e-66], q: [0.1751]
+e_t:1, mean_error = 0.20032310177705978
+Computed eta: 0.5, eta_max: 0.5
+Max score: 5.61122749202786e+31
+Updated Q : [1.21830945e-66], q: [0.1751]
+e_t:1, mean_error = 0.20161290322580644
+Computed eta: 0.5, eta_max: 0.5
+Max score: 5.61122749202786e+31
+mean: 0.29
+Updated Q : [7.31887342e-68], q: [0.2451]
+e_t:1, mean_error = 0.2028985507246377
+Computed eta: 0.5, eta_max: 0.5
+Max score: 9.072960391888799e+31
+Updated Q : [7.31887342e-68], q: [0.2451]
+e_t:1, mean_error = 0.20418006430868169
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.1749658559167696e+32
+Updated Q : [7.31887342e-68], q: [0.2451]
+e_t:1, mean_error = 0.20545746388443017
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.1749658559167696e+32
+Updated Q : [7.31887342e-68], q: [0.2451]
+e_t:1, mean_error = 0.20673076923076922
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.1749658559167696e+32
+Updated Q : [7.31887342e-68], q: [0.2451]
+e_t:1, mean_error = 0.208
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.9146777089587383e+32
+Updated Q : [7.31887342e-68], q: [0.2451]
+e_t:1, mean_error = 0.20926517571884984
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.9146777089587383e+32
+Updated Q : [7.31887342e-68], q: [0.2451]
+e_t:1, mean_error = 0.21052631578947367
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.9146777089587383e+32
+Updated Q : [7.31887342e-68], q: [0.2451]
+e_t:1, mean_error = 0.21178343949044587
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.9146777089587383e+32
+Updated Q : [7.31887342e-68], q: [0.2451]
+e_t:1, mean_error = 0.21303656597774245
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.9146777089587383e+32
+Updated Q : [7.31887342e-68], q: [0.2451]
+e_t:1, mean_error = 0.21428571428571427
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.9146777089587383e+32
+mean: 0.315
+Updated Q : [7.85474376e-69], q: [0.3276]
+e_t:1, mean_error = 0.21553090332805072
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.7168431521198256e+32
+Updated Q : [7.85474376e-69], q: [0.3276]
+e_t:0, mean_error = 0.21518987341772153
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.7168431521198256e+32
+Updated Q : [7.85474376e-69], q: [0.3276]
+e_t:1, mean_error = 0.21642969984202212
+Computed eta: 0.5, eta_max: 0.5
+Max score: 8.244552918788349e+32
+Updated Q : [7.85474376e-69], q: [0.3276]
+e_t:1, mean_error = 0.21766561514195584
+Computed eta: 0.5, eta_max: 0.5
+Max score: 8.244552918788349e+32
+Updated Q : [7.85474376e-69], q: [0.3276]
+e_t:1, mean_error = 0.2188976377952756
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.21305161080552e+33
+Updated Q : [7.85474376e-69], q: [0.3276]
+e_t:1, mean_error = 0.22012578616352202
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.21305161080552e+33
+Updated Q : [7.85474376e-69], q: [0.3276]
+e_t:1, mean_error = 0.22135007849293564
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.21305161080552e+33
+Updated Q : [7.85474376e-69], q: [0.3276]
+e_t:1, mean_error = 0.2225705329153605
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.21305161080552e+33
+Updated Q : [7.85474376e-69], q: [0.3276]
+e_t:1, mean_error = 0.2237871674491393
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.21305161080552e+33
+Updated Q : [7.85474376e-69], q: [0.3276]
+e_t:1, mean_error = 0.225
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.21305161080552e+33
+mean: 0.3375
+Updated Q : [1.39449839e-69], q: [0.42135]
+e_t:1, mean_error = 0.22620904836193448
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.2213658820634537e+33
+Updated Q : [1.39449839e-69], q: [0.42135]
+e_t:1, mean_error = 0.22741433021806853
+Computed eta: 0.5, eta_max: 0.5
+Max score: 1.2213658820634537e+33
+Updated Q : [1.39449839e-69], q: [0.42135]
+e_t:1, mean_error = 0.2286158631415241
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.8204108560021877e+33
+Updated Q : [1.39449839e-69], q: [0.42135]
+e_t:1, mean_error = 0.22981366459627328
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.8204108560021877e+33
+Updated Q : [1.39449839e-69], q: [0.42135]
+e_t:1, mean_error = 0.2310077519379845
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.8204108560021877e+33
+Updated Q : [1.39449839e-69], q: [0.42135]
+e_t:1, mean_error = 0.23219814241486067
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.8204108560021877e+33
+Updated Q : [1.39449839e-69], q: [0.42135]
+e_t:1, mean_error = 0.23338485316846985
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.8204108560021877e+33
+Updated Q : [1.39449839e-69], q: [0.42135]
+e_t:1, mean_error = 0.2345679012345679
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.8204108560021877e+33
+Updated Q : [1.39449839e-69], q: [0.42135]
+e_t:1, mean_error = 0.2357473035439137
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.8204108560021877e+33
+Updated Q : [1.39449839e-69], q: [0.42135]
+e_t:1, mean_error = 0.23692307692307693
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.8204108560021877e+33
+mean: 0.3625
+Updated Q : [3.88175027e-70], q: [0.5276]
+e_t:1, mean_error = 0.23809523809523808
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.8204108560021877e+33
+Updated Q : [3.88175027e-70], q: [0.5276]
+e_t:1, mean_error = 0.2392638036809816
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.9854127434400653e+33
+Updated Q : [3.88175027e-70], q: [0.5276]
+e_t:1, mean_error = 0.24042879019908117
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.9854127434400653e+33
+Updated Q : [3.88175027e-70], q: [0.5276]
+e_t:1, mean_error = 0.2415902140672783
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.9854127434400653e+33
+Updated Q : [3.88175027e-70], q: [0.5276]
+e_t:1, mean_error = 0.24274809160305344
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.9854127434400653e+33
+Updated Q : [3.88175027e-70], q: [0.5276]
+e_t:1, mean_error = 0.24390243902439024
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.9854127434400653e+33
+Updated Q : [3.88175027e-70], q: [0.5276]
+e_t:1, mean_error = 0.2450532724505327
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.9854127434400653e+33
+Updated Q : [3.88175027e-70], q: [0.5276]
+e_t:1, mean_error = 0.24620060790273557
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.9854127434400653e+33
+Updated Q : [3.88175027e-70], q: [0.5276]
+e_t:1, mean_error = 0.2473444613050076
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.9854127434400653e+33
+Updated Q : [3.88175027e-70], q: [0.5276]
+e_t:1, mean_error = 0.24848484848484848
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.9854127434400653e+33
+mean: 0.3875
+Updated Q : [1.6216723e-70], q: [0.64635]
+e_t:1, mean_error = 0.24962178517397882
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.9854127434400653e+33
+Updated Q : [1.6216723e-70], q: [0.64635]
+e_t:1, mean_error = 0.25075528700906347
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.9854127434400653e+33
+Updated Q : [1.6216723e-70], q: [0.64635]
+e_t:1, mean_error = 0.25188536953242835
+Computed eta: 0.5, eta_max: 0.5
+Max score: 3.9854127434400653e+33
+Updated Q : [1.6216723e-70], q: [0.64635]
+e_t:1, mean_error = 0.25301204819277107
+Computed eta: 0.5, eta_max: 0.5
+Max score: 4.644697002349075e+33
+Updated Q : [1.6216723e-70], q: [0.64635]
+e_t:1, mean_error = 0.25413533834586466
+Computed eta: 0.5, eta_max: 0.5
+Max score: 4.644697002349075e+33
+Updated Q : [1.6216723e-70], q: [0.64635]
+e_t:1, mean_error = 0.2552552552552553
+Computed eta: 0.5, eta_max: 0.5
+Max score: 4.644697002349075e+33
+Updated Q : [1.6216723e-70], q: [0.64635]
+e_t:1, mean_error = 0.2563718140929535
+Computed eta: 0.5, eta_max: 0.5
+Max score: 4.644697002349075e+33
+Updated Q : [1.6216723e-70], q: [0.64635]
+e_t:1, mean_error = 0.25748502994011974
+Computed eta: 0.5, eta_max: 0.5
+Max score: 5.521585662618876e+33
+Updated Q : [1.6216723e-70], q: [0.64635]
+e_t:1, mean_error = 0.2585949177877429
+Computed eta: 0.5, eta_max: 0.5
+Max score: 5.521585662618876e+33
+Updated Q : [1.6216723e-70], q: [0.64635]
+e_t:1, mean_error = 0.25970149253731345
+Computed eta: 0.5, eta_max: 0.5
+Max score: 5.521585662618876e+33
+mean: 0.4125
+Updated Q : [9.80563227e-71], q: [0.7776]
+e_t:1, mean_error = 0.2608047690014903
+Computed eta: 0.5, eta_max: 0.5
+Max score: 6.366257041789806e+33
+Updated Q : [9.80563227e-71], q: [0.7776]
+e_t:1, mean_error = 0.2619047619047619
+Computed eta: 0.5, eta_max: 0.5
+Max score: 6.366257041789806e+33
+Updated Q : [9.80563227e-71], q: [0.7776]
+e_t:1, mean_error = 0.26300148588410105
+Computed eta: 0.5, eta_max: 0.5
+Max score: 6.366257041789806e+33
+Updated Q : [9.80563227e-71], q: [0.7776]
+e_t:1, mean_error = 0.26409495548961426
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.671461904431528e+33
+Updated Q : [9.80563227e-71], q: [0.7776]
+e_t:0, mean_error = 0.2637037037037037
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.671461904431528e+33
+Updated Q : [9.80563227e-71], q: [0.7776]
+e_t:1, mean_error = 0.26479289940828404
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.671461904431528e+33
+Updated Q : [9.80563227e-71], q: [0.7776]
+e_t:1, mean_error = 0.2658788774002954
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.671461904431528e+33
+Updated Q : [9.80563227e-71], q: [0.7776]
+e_t:1, mean_error = 0.2669616519174041
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.671461904431528e+33
+Updated Q : [9.80563227e-71], q: [0.7776]
+e_t:1, mean_error = 0.26804123711340205
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.671461904431528e+33
+Updated Q : [9.80563227e-71], q: [0.7776]
+e_t:1, mean_error = 0.2691176470588235
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.671461904431528e+33
+mean: 0.435
+Updated Q : [8.30129149e-71], q: [0.9201]
+e_t:1, mean_error = 0.2701908957415565
+Computed eta: 0.5, eta_max: 0.5
+Max score: 7.671461904431528e+33
+Updated Q : [8.30129149e-71], q: [0.9201]
+calibrated Q :[8.30129149e-71]
+Q_t plot saved at: plots/person_0.0001/Q_t_over_time.png
+Interval width plot saved at: plots/person_0.0001/plot_interval_width.png
+q_t plot saved at: plots/person_0.0001/q_t.png
+E_t plot saved at: plots/person_0.0001/E_t.png
+Distribution plot saved at: plots/person_0.0001/calibrated_distribution_over_time_vs_observation.png
