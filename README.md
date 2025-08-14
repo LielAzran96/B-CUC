@@ -2,7 +2,7 @@
 
 This repository contains the final project for the course **"Reliability in Machine Learning"** at the **Technion – Israel Institute of Technology**.
 
-The project is inspired by the paper **CUQDS: Conformal Uncertainty Quantification under Distribution Shift**, which proposes a framework for online uncertainty calibration. Our work adapts and extends some of these ideas to a setting where the process noise `Q` in a dynamical system can be adaptively calibrated over time.
+The project is inspired by the paper **CUQDS: Conformal Uncertainty Quantification under Distribution Shift**, which proposes a framework for uncertainty calibration of trajectories, under distribution shift. Our work adapts and extends some of these ideas to a setting where the process noise `Q` in a dynamical system can be adaptively calibrated over time.
 
 > 📄 **Referencing CUQDS**  
 > ```
