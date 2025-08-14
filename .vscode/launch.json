@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug current file",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      // "python": "/home/urig/liel/reliability_in_ML/B-CUQ/bcuq/bin/python"
+      "python": "/Users/lielbalila/Desktop/projects/ReliabilityInML/project/.venv/bin/python"
+
+    }
+  ]
+}
