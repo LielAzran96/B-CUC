@@ -123,6 +123,7 @@ class conformalPrediction_Calibrator:
                 resid2 = (y_vec - mu_vec) ** 2
                 # Gaussian NLL per dim, sum over dims
                 nll_dims = 0.5 * (np.log(2 * np.pi * var_vec) + resid2 / np.clip(var_vec, 1e-12, None))
+          
                 self.nll_history.append(float(np.sum(nll_dims)))
 
                 counter += 1
@@ -140,6 +141,7 @@ class conformalPrediction_Calibrator:
                 if counter % self.update_after_every== 0:
                     # self.q = self.conformal_p_control.compute_quantile(self.q)
                     self.q = np.quantile(self._scores, 1 - self.alpha)  # quantile from residuals
+                    # self._scores = []  # reset scores after quantile computation
                     Q_new = self._update_Q_from_quantile_anchor(self.q)
                     self.model.update_params(Q=Q_new)
                     self.Q = self.model.get_param('Q')
